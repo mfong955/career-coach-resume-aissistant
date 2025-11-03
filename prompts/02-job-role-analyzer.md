@@ -1,7 +1,7 @@
 # Job Role Analyzer Prompt
 
 ## Purpose
-This prompt instructs the AI to perform deep analysis of a specific job description, including company research, competitive landscape analysis, and comparison with your profile to identify strengths, gaps, and positioning strategies.
+This prompt performs deep analysis of a specific job description, including company research, competitive landscape analysis, and comparison with your profile to identify strengths, gaps, and positioning strategies.
 
 ## When to Use
 - After adding a new job description to `job-roles/`
@@ -9,21 +9,39 @@ This prompt instructs the AI to perform deep analysis of a specific job descript
 - When preparing for an interview
 - To understand if a role is a good fit for your career goals
 
+## How to Activate
+Simply say: **"Run the job role analyzer"** or **"Run 02-job-role-analyzer.md"** or any similar variation.
+
+The AI will automatically:
+1. Check that prerequisites are met
+2. Ask which job description to analyze
+3. Verify the master profile exists
+4. Execute the comprehensive analysis
+
 ## Prerequisites
 - Your master profile exists in `output/skill-profiles/` (run Profile Analyzer first)
 - Job description file exists in `job-roles/`
 
 ---
 
-## ACTIVATE THIS PROMPT
+## PROMPT INSTRUCTIONS (For AI)
 
-Copy everything below this line and paste it into your AI conversation:
+When the user requests to run this prompt, follow these steps:
 
----
+### Step 1: Verify Prerequisites
+1. Check if master profile exists in `output/skill-profiles/`
+   - If not found, inform user they must run Profile Analyzer first
+2. List all job description files in `job-roles/`
+   - If none found, inform user they must add a job description first
 
-# JOB ROLE ANALYZER - Comprehensive Role & Company Analysis
+### Step 2: Get Job Description
+Ask the user: **"Which job description should I analyze?"**
+- Show list of available files from `job-roles/`
+- Wait for user to specify the filename
 
-You are now embodying the **Industry Analyst**, **Career Coach**, and **Resume Expert** personas. Your task is to perform an exhaustive analysis of a specific job role and company to help me understand the opportunity and position myself effectively.
+### Step 3: Execute Analysis
+
+You are now embodying the **Industry Analyst**, **Career Coach**, and **Resume Expert** personas. Your task is to perform an exhaustive analysis of the specified job role and company to help the user understand the opportunity and position themselves effectively.
 
 ## Your Mission
 
@@ -32,21 +50,10 @@ Analyze the specified job description and conduct independent research to:
 1. **Decode the job requirements** (explicit and implicit)
 2. **Research the company deeply** (culture, products, challenges, opportunities)
 3. **Understand the hiring context** (why this role exists, what problems it solves)
-4. **Compare my profile** against typical candidates
+4. **Compare user's profile** against typical candidates
 5. **Identify positioning strategies** (how to stand out)
 6. **Assess cultural fit** and potential challenges
 7. **Provide actionable recommendations** for application and interview
-
-## Specify the Job Description
-
-**Which job description should I analyze?**
-
-Please provide the filename from `job-roles/`:
-- Example: `google_senior-software-engineer_2024-01-15.md`
-
-[WAIT FOR USER TO SPECIFY THE FILE]
-
----
 
 ## Analysis Framework
 
@@ -116,11 +123,11 @@ Please provide the filename from `job-roles/`:
 - Key skills and certifications
 - Career paths that lead to this role
 
-**My Competitive Position**
-- How my experience compares to typical candidates
-- Unique strengths I bring to the table
-- Areas where I exceed expectations
-- Gaps I need to address or reframe
+**User's Competitive Position**
+- How their experience compares to typical candidates
+- Unique strengths they bring to the table
+- Areas where they exceed expectations
+- Gaps they need to address or reframe
 - Transferable skills from different contexts
 
 **Market Intelligence**
@@ -133,14 +140,14 @@ Please provide the filename from `job-roles/`:
 
 **Alignment Assessment**
 
-For each requirement, rate my alignment:
+For each requirement, rate alignment:
 - ✅ **Strong Match**: Direct experience, can provide examples
 - ⚠️ **Partial Match**: Related experience, transferable skills
 - ❌ **Gap**: No direct experience, need to address
 
 **Strengths to Emphasize**
-- Skills where I exceed requirements
-- Unique experiences that differentiate me
+- Skills where user exceeds requirements
+- Unique experiences that differentiate them
 - Quantifiable achievements relevant to this role
 - Soft skills that align with company culture
 - Domain expertise that adds value
@@ -152,7 +159,7 @@ For each requirement, rate my alignment:
 - Honest assessment of learning curve
 
 **Positioning Strategies**
-- How to frame my experience for maximum relevance
+- How to frame experience for maximum relevance
 - Which achievements to highlight
 - How to address gaps honestly and positively
 - Transferable skills to emphasize
@@ -175,10 +182,10 @@ For each requirement, rate my alignment:
 - Passion and motivation for the role
 
 **How to Stand Out**
-- Unique angles in my background
+- Unique angles in background
 - Relevant achievements to highlight
 - Questions that demonstrate insight
-- Ways to show I've done my homework
+- Ways to show homework was done
 - Authentic enthusiasm and fit
 
 ### Phase 6: Application Strategy
@@ -210,11 +217,11 @@ For each requirement, rate my alignment:
 - Behavioral questions based on responsibilities
 - Company-specific questions
 - Questions about gaps or transitions
-- Questions I should ask them
+- Questions user should ask them
 
 **Red Flags to Watch For**
 - Warning signs about the role or company
-- Misalignment with my career goals
+- Misalignment with career goals
 - Cultural fit concerns
 - Unrealistic expectations
 
@@ -233,8 +240,8 @@ The analysis should include:
 
 ### 2. Job Requirements Matrix
 Table format:
-| Requirement | My Level | Evidence | Strategy |
-|-------------|----------|----------|----------|
+| Requirement | User's Level | Evidence | Strategy |
+|-------------|--------------|----------|----------|
 | Python | ✅ Strong | 5 years, led migration | Emphasize in resume |
 | Kubernetes | ⚠️ Partial | Used in 2 projects | Highlight transferable skills |
 
@@ -246,8 +253,8 @@ Table format:
 - Competitive landscape
 
 ### 4. Competitive Positioning
-- How I compare to typical candidates
-- My unique differentiators
+- How user compares to typical candidates
+- Their unique differentiators
 - Gaps and how to address them
 - Salary expectations and negotiation leverage
 
@@ -260,7 +267,7 @@ Table format:
 ### 6. Interview Preparation Guide
 - Likely technical questions
 - Behavioral questions to prepare for
-- Questions I should ask
+- Questions user should ask
 - Red flags to watch for
 
 ### 7. Decision Framework
@@ -289,36 +296,25 @@ Table format:
 - Tech stack research (BuiltWith, StackShare, etc.)
 - GitHub or open-source presence
 
-## Questions to Ask Me
+## Questions to Ask
 
-Before completing the analysis, ask if I:
-- Have any connections at the company
-- Know anything about the team or hiring manager
-- Have specific concerns about the role
-- Am considering other similar opportunities
-- Have timeline constraints for application
+Before completing the analysis, ask if user:
+- Has any connections at the company
+- Knows anything about the team or hiring manager
+- Has specific concerns about the role
+- Is considering other similar opportunities
+- Has timeline constraints for application
 
 ## Success Criteria
 
 The analysis is complete when:
 - ✅ Job requirements are fully decoded
 - ✅ Company research is comprehensive and current
-- ✅ My competitive position is clearly assessed
+- ✅ User's competitive position is clearly assessed
 - ✅ Specific application strategies are provided
 - ✅ Interview preparation is outlined
-- ✅ Decision framework helps me evaluate the opportunity
+- ✅ Decision framework helps evaluate the opportunity
 - ✅ All recommendations are actionable
-
-## Begin Analysis
-
-Start by:
-1. Reading the specified job description file
-2. Reading my master profile from `output/skill-profiles/`
-3. Conducting independent company research
-4. Asking any clarifying questions
-5. Then proceed with the comprehensive analysis
-
-Remember: This analysis should help me make an informed decision about pursuing this role and position myself as the ideal candidate if I choose to apply.
 
 ---
 

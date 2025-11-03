@@ -1,13 +1,22 @@
 # Resume Tailor Prompt
 
 ## Purpose
-This prompt instructs the AI to create a customized version of your resume specifically tailored for a job role you're applying to. The AI will emphasize relevant experience, optimize for ATS systems, and maintain honesty while presenting your strongest case.
+This prompt creates a customized version of your resume specifically tailored for a job role you're applying to. The AI will emphasize relevant experience, optimize for ATS systems, and maintain honesty while presenting your strongest case.
 
 ## When to Use
 - After running Job Role Analyzer for a specific position
 - When applying to a role that requires emphasis on different skills
 - To create multiple versions for different role types
 - Before submitting any job application
+
+## How to Activate
+Simply say: **"Run the resume tailor"** or **"Run 03-resume-tailor.md"** or any similar variation.
+
+The AI will automatically:
+1. Check that prerequisites are met
+2. Ask which job analysis to use
+3. Verify required files exist
+4. Execute the resume tailoring process
 
 ## Prerequisites
 - Master profile exists in `output/skill-profiles/` (run Profile Analyzer first)
@@ -16,15 +25,26 @@ This prompt instructs the AI to create a customized version of your resume speci
 
 ---
 
-## ACTIVATE THIS PROMPT
+## PROMPT INSTRUCTIONS (For AI)
 
-Copy everything below this line and paste it into your AI conversation:
+When the user requests to run this prompt, follow these steps:
 
----
+### Step 1: Verify Prerequisites
+1. Check if master profile exists in `output/skill-profiles/`
+   - If not found, inform user they must run Profile Analyzer first
+2. Check if job analyses exist in `output/job-analyses/`
+   - If none found, inform user they must run Job Role Analyzer first
+3. Check if current resume exists in `personal-files/current-resume/`
+   - If not found, inform user they must add their resume first
 
-# RESUME TAILOR - Customized Resume Creation
+### Step 2: Get Target Role
+Ask the user: **"Which job role should I tailor your resume for?"**
+- Show list of available job analyses from `output/job-analyses/`
+- Wait for user to specify the filename
 
-You are now embodying the **Resume Expert** and **Professional Branding** personas. Your task is to create a tailored resume that positions me as the ideal candidate for a specific role while maintaining complete honesty and factual accuracy.
+### Step 3: Execute Resume Tailoring
+
+You are now embodying the **Resume Expert** and **Professional Branding** personas. Your task is to create a tailored resume that positions the user as the ideal candidate for a specific role while maintaining complete honesty and factual accuracy.
 
 ## Your Mission
 
@@ -33,30 +53,19 @@ Create a customized resume that:
 1. **Emphasizes relevant experience** for the target role
 2. **Optimizes for ATS systems** with appropriate keywords
 3. **Quantifies achievements** with measurable results
-4. **Maintains my authentic voice** and communication style
+4. **Maintains authentic voice** and communication style
 5. **Stays 100% truthful** - no exaggeration or fabrication
 6. **Addresses gaps strategically** with honest reframing
 7. **Follows best practices** for resume format and structure
-
-## Specify the Target Role
-
-**Which job role should I tailor my resume for?**
-
-Please provide the job analysis filename from `output/job-analyses/`:
-- Example: `google_senior-software-engineer_analysis_2024-01-15.md`
-
-[WAIT FOR USER TO SPECIFY THE FILE]
-
----
 
 ## Critical Principles
 
 ### 1. HONESTY IS NON-NEGOTIABLE
 - ❌ **NEVER** invent skills, experiences, or achievements
 - ❌ **NEVER** exaggerate proficiency levels or impact
-- ❌ **NEVER** claim technologies or tools I haven't used
+- ❌ **NEVER** claim technologies or tools they haven't used
 - ❌ **NEVER** fabricate job titles, dates, or responsibilities
-- ✅ **ALWAYS** stick to documented facts from my profile
+- ✅ **ALWAYS** stick to documented facts from profile
 - ✅ **ALWAYS** ask clarifying questions if uncertain
 - ✅ **ALWAYS** reframe truthfully rather than embellish
 
@@ -79,13 +88,13 @@ Please provide the job analysis filename from `output/job-analyses/`:
 ### Phase 1: Review Context
 
 Read and analyze:
-1. My master profile from `output/skill-profiles/`
-2. The job analysis from `output/job-analyses/`
-3. My current resume from `personal-files/current-resume/`
+1. Master profile from `output/skill-profiles/`
+2. Job analysis from `output/job-analyses/`
+3. Current resume from `personal-files/current-resume/`
 
 Understand:
 - Target role requirements and priorities
-- My relevant experiences and achievements
+- Relevant experiences and achievements
 - Keywords and phrases to incorporate
 - Gaps to address or reframe
 
@@ -184,18 +193,18 @@ For each relevant achievement:
 
 ### Phase 5: Gap Addressing
 
-**If I lack a required skill:**
+**If lacking a required skill:**
 - Highlight related/transferable skills
 - Show learning agility with examples
-- Mention if I'm currently learning it
-- Don't claim proficiency I don't have
+- Mention if currently learning it
+- Don't claim proficiency they don't have
 
-**If I have employment gaps:**
+**If employment gaps exist:**
 - Be honest about dates
 - Briefly explain if asked (freelance, education, personal)
 - Focus on skills maintained or developed during gap
 
-**If I'm changing careers:**
+**If changing careers:**
 - Emphasize transferable skills
 - Highlight relevant projects or side work
 - Show passion and commitment to new field
@@ -205,7 +214,7 @@ For each relevant achievement:
 
 **Before finalizing, verify:**
 - ✅ All information is factually accurate
-- ✅ Dates and titles match my actual history
+- ✅ Dates and titles match actual history
 - ✅ Achievements are quantified where possible
 - ✅ Keywords from job description are included
 - ✅ No spelling or grammar errors
@@ -248,9 +257,9 @@ Include:
 - **Recommendations**: Additional tips for this application
 - **Cover Letter Themes**: Suggested themes for cover letter
 
-## Questions to Ask Me
+## Questions to Ask
 
-Before creating the resume, ask if I need clarification on:
+Before creating the resume, ask if clarification needed on:
 - Specific achievements or projects
 - Technical proficiency levels
 - Dates or timelines
@@ -258,7 +267,7 @@ Before creating the resume, ask if I need clarification on:
 - How to describe certain experiences
 - Whether to include or exclude certain information
 
-**IMPORTANT**: If anything in my profile is unclear or seems inconsistent, ASK rather than assume or fabricate.
+**IMPORTANT**: If anything in profile is unclear or seems inconsistent, ASK rather than assume or fabricate.
 
 ## Success Criteria
 
@@ -269,21 +278,9 @@ The tailored resume is complete when:
 - ✅ Keywords from job description are naturally integrated
 - ✅ Format is ATS-friendly and professional
 - ✅ Length is appropriate (1-2 pages)
-- ✅ My authentic voice is maintained
+- ✅ Authentic voice is maintained
 - ✅ Both ATS and human-readable versions are created
 - ✅ Tailoring notes document is comprehensive
-
-## Begin Resume Tailoring
-
-Start by:
-1. Reading my master profile
-2. Reading the job analysis for the target role
-3. Reading my current resume
-4. Asking any clarifying questions
-5. Creating the tailored resume versions
-6. Providing the tailoring summary
-
-Remember: Honesty and accuracy are paramount. A strong, truthful resume that positions me well is far better than an exaggerated one that could damage my credibility.
 
 ---
 

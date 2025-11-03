@@ -10,25 +10,45 @@ Optimize your LinkedIn profile to attract recruiters, showcase your expertise, a
 - To improve visibility to recruiters
 - When pivoting careers or industries
 
+## How to Activate
+Simply say: **"Run the LinkedIn optimizer"** or **"Run 06-linkedin-optimizer.md"** or any similar variation.
+
+The AI will automatically:
+1. Check that prerequisites are met
+2. Ask for your current LinkedIn profile details or URL
+3. Ask about your target roles and industries
+4. Execute the comprehensive LinkedIn optimization
+
 ## Prerequisites
 - Master profile exists in `output/skill-profiles/`
 
 ---
 
-## ACTIVATE THIS PROMPT
+## PROMPT INSTRUCTIONS (For AI)
 
----
+When the user requests to run this prompt, follow these steps:
 
-# LINKEDIN OPTIMIZER - Professional Branding & Profile Enhancement
+### Step 1: Verify Prerequisites
+Check if master profile exists in `output/skill-profiles/`
+- If not found, inform user they should run Profile Analyzer first
 
-You are now embodying the **Professional Branding** and **Career Coach** personas. Your task is to optimize my LinkedIn profile to maximize visibility, credibility, and opportunities.
+### Step 2: Gather LinkedIn Information
+Ask the user:
+1. Current LinkedIn URL or profile details (optional - can work without)
+2. What are your target roles and industries?
+3. What's your comfort level with posting content? (active / occasional / minimal)
+4. Any specific LinkedIn goals? (job search / networking / thought leadership)
+
+### Step 3: Execute LinkedIn Optimization
+
+You are now embodying the **Professional Branding** and **Career Coach** personas. Your task is to optimize the LinkedIn profile to maximize visibility, credibility, and opportunities.
 
 ## Your Mission
 
-Optimize my LinkedIn profile by:
+Optimize LinkedIn profile by:
 
 1. **Crafting a compelling headline** that attracts attention
-2. **Writing an engaging About section** that tells my story
+2. **Writing an engaging About section** that tells the story
 3. **Optimizing experience descriptions** with keywords and achievements
 4. **Enhancing skills and endorsements** for searchability
 5. **Improving profile completeness** for algorithm ranking
@@ -39,7 +59,7 @@ Optimize my LinkedIn profile by:
 
 ### Phase 1: Profile Audit
 
-Review my current LinkedIn profile (if I provide URL or screenshots) and assess:
+Review current LinkedIn profile (if provided) and assess:
 - Profile completeness (LinkedIn's algorithm favors complete profiles)
 - Keyword optimization for target roles
 - Visual appeal (photo, banner, media)
@@ -72,12 +92,12 @@ Write a compelling About section (2,000 character limit) that:
 **Structure:**
 1. **Opening Hook** (1-2 sentences)
    - Grab attention immediately
-   - State your unique value proposition
+   - State unique value proposition
 
 2. **Professional Story** (2-3 paragraphs)
    - Career journey and evolution
    - Key achievements and impact
-   - What drives and motivates you
+   - What drives and motivates
 
 3. **Expertise & Skills** (1 paragraph)
    - Core competencies
@@ -212,7 +232,7 @@ For each role, optimize:
 **Engagement Strategy:**
 - Comment on others' posts
 - Share valuable content with insights
-- Engage with your network's content
+- Engage with network's content
 - Join and participate in relevant groups
 - Follow and engage with industry leaders
 
@@ -235,7 +255,7 @@ For each role, optimize:
 
 ### Phase 10: Recruiter Optimization
 
-**Make Your Profile Recruiter-Friendly:**
+**Make Profile Recruiter-Friendly:**
 - ✅ Open to opportunities (turn on in settings)
 - ✅ Keywords in headline and about section
 - ✅ Clear job titles and skills
@@ -319,17 +339,6 @@ The LinkedIn optimization is complete when:
 - ✅ Content strategy is defined
 - ✅ Network building plan is actionable
 - ✅ Profile is recruiter-optimized
-
-## Begin LinkedIn Optimization
-
-Start by:
-1. Reading my master profile
-2. Asking for my current LinkedIn URL or profile details
-3. Asking about my target roles and industries
-4. Asking about my content comfort level
-5. Creating the comprehensive optimization guide
-
-Remember: LinkedIn is a long-term investment in your professional brand. Consistency and authenticity are key to success.
 
 ---
 

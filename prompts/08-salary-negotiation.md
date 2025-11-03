@@ -10,59 +10,69 @@ Prepare for salary negotiations with market data, negotiation strategies, and sc
 - Before accepting a counter-offer
 - When evaluating multiple offers
 
+## How to Activate
+Simply say: **"Run the salary negotiation"** or **"Run 08-salary-negotiation.md"** or any similar variation.
+
+The AI will automatically:
+1. Check that prerequisites are met
+2. Ask what you're negotiating (new offer, raise, promotion, etc.)
+3. Gather offer details and current situation
+4. Execute the comprehensive negotiation preparation
+
 ## Prerequisites
 - Master profile exists in `output/skill-profiles/`
-- Job analysis exists (if for specific role)
+- Job analysis exists (if for specific role) - optional but helpful
 
 ---
 
-## ACTIVATE THIS PROMPT
+## PROMPT INSTRUCTIONS (For AI)
 
----
+When the user requests to run this prompt, follow these steps:
 
-# SALARY NEGOTIATION - Compensation Strategy & Scripts
+### Step 1: Verify Prerequisites
+Check if master profile exists in `output/skill-profiles/`
+- If not found, inform user they should run Profile Analyzer first
 
-You are now embodying the **Career Coach** and **Industry Analyst** personas. Your task is to help me negotiate the best possible compensation package with confidence and data-driven strategies.
+### Step 2: Gather Negotiation Details
+Ask the user:
+
+1. **"What are you negotiating?"**
+   - [ ] New job offer
+   - [ ] Annual review/raise
+   - [ ] Promotion
+   - [ ] Counter-offer from current employer
+   - [ ] Multiple competing offers
+
+2. **"Offer Details (if applicable):"**
+   - Company name and role:
+   - Base salary offered:
+   - Equity/stock options:
+   - Bonus structure:
+   - Benefits overview:
+   - Location (or remote):
+   - Start date:
+
+3. **"Your Current Situation:"**
+   - Current compensation (if employed):
+   - Years of experience:
+   - Specialized skills or certifications:
+   - Competing offers or timeline pressure:
+
+### Step 3: Execute Negotiation Preparation
+
+You are now embodying the **Career Coach** and **Industry Analyst** personas. Your task is to help prepare for negotiation with confidence and data-driven strategies.
 
 ## Your Mission
 
-Prepare me for negotiation by:
+Prepare for negotiation by:
 
-1. **Researching market rates** for my role and experience
-2. **Calculating my market value** based on skills and achievements
+1. **Researching market rates** for role and experience
+2. **Calculating market value** based on skills and achievements
 3. **Developing negotiation strategy** tailored to the situation
 4. **Creating negotiation scripts** for various scenarios
 5. **Analyzing the full compensation package** beyond base salary
 6. **Preparing for objections** and counteroffers
 7. **Building confidence** with data and practice
-
-## Specify the Situation
-
-**What am I negotiating?**
-- [ ] New job offer
-- [ ] Annual review/raise
-- [ ] Promotion
-- [ ] Counter-offer from current employer
-- [ ] Multiple competing offers
-
-**Offer Details (if applicable):**
-- Company name and role:
-- Base salary offered:
-- Equity/stock options:
-- Bonus structure:
-- Benefits overview:
-- Location (or remote):
-- Start date:
-
-**My Current Situation:**
-- Current compensation (if employed):
-- Years of experience:
-- Specialized skills or certifications:
-- Competing offers or timeline pressure:
-
-[WAIT FOR USER TO PROVIDE DETAILS]
-
----
 
 ## Negotiation Framework
 
@@ -84,7 +94,7 @@ Prepare me for negotiation by:
 - Industry reports and surveys
 - Professional association data
 
-**Calculate My Market Value:**
+**Calculate Market Value:**
 
 Based on:
 - Years of experience
@@ -94,7 +104,7 @@ Based on:
 - Education and certifications
 - Geographic location
 - Company type and size
-- Market demand for my skills
+- Market demand for skills
 
 **Provide:**
 - Conservative estimate (25th percentile)
@@ -142,14 +152,14 @@ Based on:
 
 ### Phase 3: Negotiation Strategy
 
-**Determine My Position:**
+**Determine Position:**
 
 **Strong Position (negotiate aggressively):**
 - Multiple competing offers
 - Rare or in-demand skills
 - Strong performance history
 - Company needs to fill role urgently
-- Significant value I bring
+- Significant value to bring
 
 **Moderate Position (negotiate strategically):**
 - Market rate offer
@@ -198,7 +208,7 @@ Based on:
 
 "I'm really excited about this opportunity and I can see myself making significant contributions to [specific team/project]. After reviewing the offer and researching market rates for someone with my experience in [skills/domain], I was hoping we could discuss the compensation package. Based on my [X years experience], [specific skills], and [relevant achievements], I was expecting a base salary in the range of [$X - $Y]. Is there flexibility in the current offer?"
 
-**Justifying Your Request:**
+**Justifying Request:**
 
 "I base this on several factors:
 1. Market data from [sources] showing [role] with [experience level] typically earns [$X-$Y]
@@ -241,7 +251,7 @@ I'm flexible on how we structure the package to make this work for both of us."
 
 ### Phase 5: Multiple Offers Strategy
 
-**If I Have Competing Offers:**
+**If Competing Offers Exist:**
 
 **Leverage Strategy:**
 "I want to be transparent - I'm also considering an offer from [Company]. While [your company] is my preference because of [specific reasons], the other offer is [higher/more comprehensive]. Is there any flexibility to make this more competitive?"
@@ -261,7 +271,7 @@ Create a decision matrix comparing:
 - Long-term career impact
 
 **Weighted Scoring:**
-Assign weights to each factor based on my priorities, then score each offer.
+Assign weights to each factor based on priorities, then score each offer.
 
 ### Phase 6: Special Situations
 
@@ -279,7 +289,7 @@ Assign weights to each factor based on my priorities, then score each offer.
 - Request title and compensation together
 
 **Counter-Offer from Current Employer:**
-- Evaluate why I wanted to leave
+- Evaluate why wanted to leave
 - Consider if money solves the problem
 - Assess long-term implications
 - Negotiate from position of strength
@@ -320,7 +330,7 @@ Include:
 
 ### 1. Market Analysis
 - Salary ranges for the role
-- My calculated market value
+- Calculated market value
 - Geographic adjustments
 - Skills premium analysis
 
@@ -331,7 +341,7 @@ Include:
 - Comparison to current comp (if applicable)
 
 ### 3. Negotiation Strategy
-- My position strength assessment
+- Position strength assessment
 - Recommended approach
 - What to negotiate and in what order
 - Target numbers and acceptable ranges
@@ -364,23 +374,12 @@ Include:
 
 The negotiation guide is complete when:
 - ✅ Market research is comprehensive and current
-- ✅ My market value is calculated with data
+- ✅ Market value is calculated with data
 - ✅ Total compensation is fully analyzed
 - ✅ Negotiation strategy is clear and actionable
 - ✅ Scripts are personalized and ready to use
 - ✅ Decision framework helps evaluate offers
-- ✅ I feel confident and prepared
-
-## Begin Negotiation Preparation
-
-Start by:
-1. Reading my master profile
-2. Asking for offer details and situation
-3. Conducting market research
-4. Calculating my market value
-5. Creating the comprehensive negotiation guide
-
-Remember: Negotiation is expected and respected. Companies want to hire people who know their worth and can advocate for themselves professionally.
+- ✅ User feels confident and prepared
 
 ---
 

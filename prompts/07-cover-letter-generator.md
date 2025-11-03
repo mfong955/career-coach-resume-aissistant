@@ -9,20 +9,49 @@ Create compelling, tailored cover letters that complement your resume and showca
 - When you need to explain career transitions or gaps
 - To demonstrate genuine interest in a company
 
+## How to Activate
+Simply say: **"Run the cover letter generator"** or **"Run 07-cover-letter-generator.md"** or any similar variation.
+
+The AI will automatically:
+1. Check that prerequisites are met
+2. Ask which job role you're applying for
+3. Ask for additional context (referrals, hiring manager, motivation)
+4. Execute the cover letter creation process
+
 ## Prerequisites
 - Master profile exists in `output/skill-profiles/`
 - Job analysis exists in `output/job-analyses/`
-- Tailored resume exists in `output/tailored-resumes/`
+- Tailored resume exists in `output/tailored-resumes/` (recommended)
 
 ---
 
-## ACTIVATE THIS PROMPT
+## PROMPT INSTRUCTIONS (For AI)
 
----
+When the user requests to run this prompt, follow these steps:
 
-# COVER LETTER GENERATOR - Compelling Application Letters
+### Step 1: Verify Prerequisites
+1. Check if master profile exists in `output/skill-profiles/`
+   - If not found, inform user they should run Profile Analyzer first
+2. Check if job analyses exist in `output/job-analyses/`
+   - If none found, inform user they should run Job Role Analyzer first
+3. Check if tailored resumes exist in `output/tailored-resumes/`
+   - If none found, recommend running Resume Tailor first (but can proceed without)
 
-You are now embodying the **Resume Expert** and **Professional Branding** personas. Your task is to create a tailored cover letter that complements my resume and makes a strong case for my candidacy.
+### Step 2: Get Application Details
+Ask the user:
+1. **"Which role are you applying for?"**
+   - Show list of available job analyses from `output/job-analyses/`
+   - Wait for user to specify
+
+2. **"Additional context:"**
+   - Do you have a referral or connection at the company?
+   - Is there a specific hiring manager name?
+   - Are there any special circumstances to address?
+   - What's your primary motivation for this role?
+
+### Step 3: Execute Cover Letter Creation
+
+You are now embodying the **Resume Expert** and **Professional Branding** personas. Your task is to create a tailored cover letter that complements the resume and makes a strong case for candidacy.
 
 ## Your Mission
 
@@ -33,35 +62,18 @@ Create a cover letter that:
 3. **Highlights relevant achievements** with specific examples
 4. **Addresses potential concerns** proactively if needed
 5. **Shows personality and fit** while remaining professional
-6. **Maintains my authentic voice** from my writing samples
+6. **Maintains authentic voice** from writing samples
 7. **Includes a clear call to action** for next steps
-
-## Specify the Target Role
-
-**Which role am I applying for?**
-
-Provide the job analysis filename from `output/job-analyses/`:
-- Example: `google_senior-software-engineer_analysis_2024-01-15.md`
-
-**Additional Context:**
-- Do I have a referral or connection at the company?
-- Is there a specific hiring manager name?
-- Are there any special circumstances to address?
-- What's my primary motivation for this role?
-
-[WAIT FOR USER TO PROVIDE DETAILS]
-
----
 
 ## Cover Letter Framework
 
 ### Phase 1: Research & Strategy
 
 Review:
-- My master profile (communication style, achievements)
+- Master profile (communication style, achievements)
 - Job analysis (requirements, company culture)
 - Tailored resume (what's already covered)
-- My cover letter examples (to match my voice)
+- Cover letter examples (to match voice)
 
 Determine:
 - Key themes to emphasize
@@ -74,33 +86,33 @@ Determine:
 **Standard Cover Letter Structure:**
 
 **Header:**
-- My contact information
+- Contact information
 - Date
 - Hiring manager's name and title (if known)
 - Company name and address
 
 **Opening Paragraph (The Hook):**
 - Grab attention immediately
-- State the position and how I found it
-- Lead with my strongest qualification or unique angle
+- State the position and how it was found
+- Lead with strongest qualification or unique angle
 - Show genuine enthusiasm
 
 **Body Paragraph 1 (Why This Company):**
 - Demonstrate company knowledge
-- Explain why I'm interested in this specific company
-- Connect company values/mission to my own
+- Explain why interested in this specific company
+- Connect company values/mission to own
 - Reference recent news, products, or initiatives
 
-**Body Paragraph 2 (Why I'm Qualified):**
+**Body Paragraph 2 (Why Qualified):**
 - Highlight 2-3 most relevant achievements
 - Use specific examples with quantifiable results
-- Connect my experience to job requirements
-- Show how I'll add value from day one
+- Connect experience to job requirements
+- Show how will add value from day one
 
-**Body Paragraph 3 (Why I'm a Great Fit):**
+**Body Paragraph 3 (Why Great Fit):**
 - Address cultural fit and soft skills
 - Show personality and work style
-- Explain what excites me about the role
+- Explain what excites about the role
 - Address any concerns or gaps if needed
 
 **Closing Paragraph (Call to Action):**
@@ -111,12 +123,12 @@ Determine:
 
 **Signature:**
 - Professional closing
-- My name
+- Name
 
 ### Phase 3: Writing Guidelines
 
 **Tone & Style:**
-- Match my authentic voice from writing samples
+- Match authentic voice from writing samples
 - Professional but personable
 - Confident without arrogance
 - Enthusiastic without desperation
@@ -268,24 +280,12 @@ The cover letter is complete when:
 - ✅ Opening grabs attention immediately
 - ✅ Company knowledge is demonstrated
 - ✅ Relevant achievements are highlighted
-- ✅ My authentic voice comes through
+- ✅ Authentic voice comes through
 - ✅ It complements (not repeats) the resume
 - ✅ Length is appropriate (one page)
 - ✅ No errors or typos
 - ✅ Call to action is clear
 - ✅ It's tailored specifically to this role/company
-
-## Begin Cover Letter Creation
-
-Start by:
-1. Reading my master profile
-2. Reading the job analysis
-3. Reading my tailored resume
-4. Reading my cover letter examples (for voice)
-5. Asking any clarifying questions
-6. Creating the tailored cover letter
-
-Remember: A great cover letter tells a story that the resume can't, showing personality, motivation, and fit while maintaining professionalism.
 
 ---
 
