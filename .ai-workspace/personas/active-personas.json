@@ -1,4 +1,5 @@
 {
+  "project_name": "Career Coach & Resume Assistant",
   "active_personas": [
     "career-coach",
     "resume-expert",
@@ -6,12 +7,6 @@
     "interview-coach",
     "industry-analyst"
   ],
-  "project_type": "career-coaching-resume-assistant",
-  "last_updated": "2024-01-15",
-  "persona_coordination": {
-    "primary_coordinator": "career-coach",
-    "collaboration_mode": "dynamic",
-    "context_sharing": true
-  },
-  "notes": "All personas work together to provide comprehensive career coaching and job search support. The Career Coach coordinates overall strategy while specialized personas provide deep expertise in their domains."
+  "description": "Specialized AI personas for comprehensive career coaching and job search support",
+  "last_updated": "2024-01-15"
 }
