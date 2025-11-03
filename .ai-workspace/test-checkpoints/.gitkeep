@@ -1,0 +1,9 @@
+# This directory stores test checkpoints and validation logs
+
+Test checkpoints are created before significant changes to document:
+- Current state of the project
+- Expected behavior
+- Success criteria
+- How to rollback if needed
+
+This helps with debugging and ensures changes can be validated systematically.
