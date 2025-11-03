@@ -4,22 +4,39 @@
 
 This directory contains carefully crafted AI prompt templates that form the backbone of your Career Coach & Resume Assistant package. Each prompt is designed to activate specific AI personas and guide comprehensive analysis and creation of career-related materials.
 
+## 🚀 NEW: Easy Activation
+
+**You no longer need to copy and paste prompts!** Simply say:
+- **"Run the profile analyzer"** or **"Run 01-profile-analyzer.md"**
+- **"Run the job role analyzer"** or **"Run 02"**
+- **"Run resume tailor"** or any similar variation
+
+The AI will automatically:
+1. ✅ Check that prerequisites are met
+2. ✅ Verify required files exist
+3. ✅ Ask for any missing information
+4. ✅ Execute the comprehensive analysis
+
 ## How to Use These Prompts
 
-1. **Open the prompt file** you want to use (e.g., `01-profile-analyzer.md`)
-2. **Read the "When to Use" section** to confirm it's the right prompt
-3. **Check Prerequisites** to ensure you have the necessary files
-4. **Copy everything below the "ACTIVATE THIS PROMPT" line**
-5. **Paste into your AI conversation** (Claude, ChatGPT, etc.)
-6. **Follow the AI's instructions** and provide requested information
-7. **Review the output** saved to the `output/` directory
+### Simple Activation Method (Recommended)
+1. **Say the prompt name** - e.g., "Run the profile analyzer"
+2. **Answer any questions** the AI asks about prerequisites or details
+3. **Review the output** saved to the `output/` directory
+
+### Traditional Method (Still Works)
+1. Open the prompt file you want to use
+2. Read the "When to Use" section to confirm it's right
+3. Copy everything below "PROMPT INSTRUCTIONS (For AI)"
+4. Paste into your AI conversation
+5. Follow the AI's instructions
 
 ## Prompt Workflow
 
 ### Getting Started (First Time Setup)
 
-**Step 1: Profile Analysis**
-- **Prompt**: [`01-profile-analyzer.md`](./01-profile-analyzer.md)
+**Step 1: Profile Analysis** ⭐ **START HERE**
+- **Command**: "Run the profile analyzer" or "Run 01-profile-analyzer.md"
 - **Purpose**: Deep dive into your skills and experience
 - **Output**: Master profile in `output/skill-profiles/`
 - **Time**: 30-45 minutes
@@ -28,35 +45,35 @@ This directory contains carefully crafted AI prompt templates that form the back
 ### Job Application Workflow
 
 **Step 2: Job Role Analysis**
-- **Prompt**: [`02-job-role-analyzer.md`](./02-job-role-analyzer.md)
+- **Command**: "Run the job role analyzer" or "Run 02-job-role-analyzer.md"
 - **Purpose**: Analyze a specific job description and company
 - **Output**: Comprehensive analysis in `output/job-analyses/`
 - **Time**: 20-30 minutes
 - **Run this** after adding a job description to `job-roles/`
 
 **Step 3: Resume Tailoring**
-- **Prompt**: [`03-resume-tailor.md`](./03-resume-tailor.md)
+- **Command**: "Run the resume tailor" or "Run 03-resume-tailor.md"
 - **Purpose**: Create a customized resume for the role
 - **Output**: Tailored resume in `output/tailored-resumes/`
 - **Time**: 15-20 minutes
 - **Run this** after completing job role analysis
 
 **Step 4: Cover Letter (Optional)**
-- **Prompt**: [`07-cover-letter-generator.md`](./07-cover-letter-generator.md)
+- **Command**: "Run the cover letter generator" or "Run 07-cover-letter-generator.md"
 - **Purpose**: Create a compelling cover letter
 - **Output**: Cover letter in `output/cover-letters/`
 - **Time**: 10-15 minutes
 - **Run this** if the application requests a cover letter
 
 **Step 5: Interview Preparation**
-- **Prompt**: [`04-interview-prep.md`](./04-interview-prep.md)
+- **Command**: "Run the interview prep" or "Run 04-interview-prep.md"
 - **Purpose**: Prepare for interviews with questions and answers
 - **Output**: Interview guide in `output/interview-prep/`
 - **Time**: 30-45 minutes
 - **Run this** after receiving an interview invitation
 
 **Step 6: Salary Negotiation**
-- **Prompt**: [`08-salary-negotiation.md`](./08-salary-negotiation.md)
+- **Command**: "Run the salary negotiation" or "Run 08-salary-negotiation.md"
 - **Purpose**: Prepare for salary negotiations
 - **Output**: Negotiation guide in `output/salary-negotiation/`
 - **Time**: 20-30 minutes
@@ -65,14 +82,14 @@ This directory contains carefully crafted AI prompt templates that form the back
 ### Career Development Workflow
 
 **Career Planning**
-- **Prompt**: [`05-career-planning.md`](./05-career-planning.md)
+- **Command**: "Run the career planning" or "Run 05-career-planning.md"
 - **Purpose**: Create a strategic career development plan
 - **Output**: Career plan in `output/career-plans/`
 - **Time**: 45-60 minutes
 - **Run this** when planning your next career move
 
 **LinkedIn Optimization**
-- **Prompt**: [`06-linkedin-optimizer.md`](./06-linkedin-optimizer.md)
+- **Command**: "Run the LinkedIn optimizer" or "Run 06-linkedin-optimizer.md"
 - **Purpose**: Optimize your LinkedIn profile
 - **Output**: LinkedIn guide in `output/professional-branding/`
 - **Time**: 30-45 minutes
@@ -80,8 +97,8 @@ This directory contains carefully crafted AI prompt templates that form the back
 
 ## Prompt Details
 
-### 01. Profile Analyzer
-**File**: [`01-profile-analyzer.md`](./01-profile-analyzer.md)
+### 01. Profile Analyzer ⭐ **REQUIRED FIRST**
+**Command**: "Run the profile analyzer"
 
 **What it does:**
 - Analyzes all your professional documents
@@ -96,12 +113,13 @@ This directory contains carefully crafted AI prompt templates that form the back
 - When gaining new skills or certifications
 - Annual career review
 
-**Output location:** `output/skill-profiles/`
+**Prerequisites:**
+- At least one resume in `personal-files/current-resume/`
 
 ---
 
 ### 02. Job Role Analyzer
-**File**: [`02-job-role-analyzer.md`](./02-job-role-analyzer.md)
+**Command**: "Run the job role analyzer"
 
 **What it does:**
 - Deep analysis of job requirements
@@ -115,12 +133,14 @@ This directory contains carefully crafted AI prompt templates that form the back
 - Before tailoring your resume
 - When evaluating if a role is a good fit
 
-**Output location:** `output/job-analyses/`
+**Prerequisites:**
+- Master profile exists (run Profile Analyzer first)
+- Job description file in `job-roles/`
 
 ---
 
 ### 03. Resume Tailor
-**File**: [`03-resume-tailor.md`](./03-resume-tailor.md)
+**Command**: "Run the resume tailor"
 
 **What it does:**
 - Creates ATS-optimized resume
@@ -134,14 +154,17 @@ This directory contains carefully crafted AI prompt templates that form the back
 - Before submitting any application
 - When applying to different role types
 
-**Output location:** `output/tailored-resumes/`
+**Prerequisites:**
+- Master profile exists
+- Job analysis exists
+- Current resume in `personal-files/current-resume/`
 
 **Critical principle:** 100% honesty - no exaggeration or fabrication
 
 ---
 
 ### 04. Interview Prep
-**File**: [`04-interview-prep.md`](./04-interview-prep.md)
+**Command**: "Run the interview prep"
 
 **What it does:**
 - Generates likely interview questions
@@ -155,12 +178,14 @@ This directory contains carefully crafted AI prompt templates that form the back
 - Before phone screens or technical interviews
 - When preparing for final rounds
 
-**Output location:** `output/interview-prep/`
+**Prerequisites:**
+- Master profile exists
+- Job analysis exists (recommended)
 
 ---
 
 ### 05. Career Planning
-**File**: [`05-career-planning.md`](./05-career-planning.md)
+**Command**: "Run the career planning"
 
 **What it does:**
 - Clarifies career goals
@@ -175,12 +200,13 @@ This directory contains carefully crafted AI prompt templates that form the back
 - When considering career transitions
 - To set long-term goals
 
-**Output location:** `output/career-plans/`
+**Prerequisites:**
+- Master profile exists
 
 ---
 
 ### 06. LinkedIn Optimizer
-**File**: [`06-linkedin-optimizer.md`](./06-linkedin-optimizer.md)
+**Command**: "Run the LinkedIn optimizer"
 
 **What it does:**
 - Optimizes LinkedIn headline
@@ -195,12 +221,13 @@ This directory contains carefully crafted AI prompt templates that form the back
 - To improve recruiter visibility
 - When pivoting careers
 
-**Output location:** `output/professional-branding/`
+**Prerequisites:**
+- Master profile exists
 
 ---
 
 ### 07. Cover Letter Generator
-**File**: [`07-cover-letter-generator.md`](./07-cover-letter-generator.md)
+**Command**: "Run the cover letter generator"
 
 **What it does:**
 - Creates tailored cover letters
@@ -215,12 +242,15 @@ This directory contains carefully crafted AI prompt templates that form the back
 - When explaining career transitions
 - To demonstrate genuine interest
 
-**Output location:** `output/cover-letters/`
+**Prerequisites:**
+- Master profile exists
+- Job analysis exists
+- Tailored resume exists (recommended)
 
 ---
 
 ### 08. Salary Negotiation
-**File**: [`08-salary-negotiation.md`](./08-salary-negotiation.md)
+**Command**: "Run the salary negotiation"
 
 **What it does:**
 - Researches market rates
@@ -235,7 +265,8 @@ This directory contains carefully crafted AI prompt templates that form the back
 - When discussing promotions
 - When evaluating multiple offers
 
-**Output location:** `output/salary-negotiation/`
+**Prerequisites:**
+- Master profile exists
 
 ## Best Practices
 
@@ -258,12 +289,13 @@ For job applications, follow the workflow:
 5. Interview Prep (when invited)
 6. Salary Negotiation (when offered)
 
-### 4. Customize as Needed
-These prompts are templates. Feel free to:
-- Add specific questions
-- Request additional analysis
-- Adjust the focus areas
-- Combine prompts if appropriate
+### 4. Use Natural Language
+You can activate prompts by saying:
+- "Run the profile analyzer"
+- "Run 01-profile-analyzer.md"
+- "Activate the job role analyzer"
+- "Start the resume tailor"
+- Any similar variation!
 
 ### 5. Review AI Output
 Always review and verify:
@@ -279,34 +311,12 @@ If the output isn't quite right:
 - Request specific changes
 - Run the prompt again with updates
 
-## Prompt Design Philosophy
-
-These prompts are designed with several key principles:
-
-### Comprehensive Research
-Each prompt instructs the AI to conduct thorough research and analysis, not just respond to surface-level information.
-
-### Honesty First
-Especially in resume and application materials, the prompts emphasize 100% factual accuracy and explicitly forbid exaggeration.
-
-### Context Awareness
-Prompts reference your master profile and previous analyses to maintain consistency and build on prior work.
-
-### Actionable Output
-Every prompt produces specific, usable deliverables saved to organized directories.
-
-### Persona-Based
-Prompts activate specific AI personas (Career Coach, Resume Expert, etc.) to provide specialized expertise.
-
-### Question-Driven
-Prompts encourage the AI to ask clarifying questions rather than make assumptions.
-
 ## Troubleshooting
 
 ### "The AI didn't follow the prompt"
-- Ensure you copied everything below "ACTIVATE THIS PROMPT"
+- Make sure you used the activation command correctly
+- Provide any requested information
 - Try rephrasing or emphasizing specific sections
-- Provide more context about your situation
 
 ### "The output is too generic"
 - Make sure you've run Profile Analyzer first
@@ -332,12 +342,26 @@ If you need assistance:
 4. Try running the prompt again with more context
 5. Consult the main project README for overall guidance
 
-## Contributing
+## What's New
 
-As you use these prompts, you may discover improvements:
-- More effective phrasing
-- Additional analysis areas
-- Better output formats
-- New use cases
+### Auto-Activation Feature
+- No more copying and pasting!
+- Just say "Run [prompt name]"
+- AI automatically checks prerequisites
+- Asks for missing information
+- Executes the full analysis
 
-Feel free to modify and enhance these prompts for your needs!
+### Prerequisite Verification
+- AI verifies required files exist
+- Informs you of missing prerequisites
+- Guides you through setup if needed
+
+### Interactive Experience
+- AI asks clarifying questions
+- Gathers necessary details
+- Provides step-by-step guidance
+- More conversational workflow
+
+---
+
+**Ready to get started?** Say: **"Run the profile analyzer"** to begin your career coaching journey! 🚀

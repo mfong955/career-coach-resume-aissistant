@@ -8,48 +8,58 @@ Prepare comprehensively for interviews by generating likely questions, crafting 
 - To practice before phone screens, technical interviews, or final rounds
 - When preparing for specific interview formats (behavioral, technical, case study)
 
+## How to Activate
+Simply say: **"Run the interview prep"** or **"Run 04-interview-prep.md"** or any similar variation.
+
+The AI will automatically:
+1. Check that prerequisites are met
+2. Ask which job role you're interviewing for
+3. Ask for interview details (format, interviewer, length)
+4. Execute the comprehensive interview preparation
+
 ## Prerequisites
 - Master profile exists in `output/skill-profiles/`
 - Job analysis exists in `output/job-analyses/`
-- Tailored resume exists in `output/tailored-resumes/`
+- Tailored resume exists in `output/tailored-resumes/` (recommended)
 
 ---
 
-## ACTIVATE THIS PROMPT
+## PROMPT INSTRUCTIONS (For AI)
 
----
+When the user requests to run this prompt, follow these steps:
 
-# INTERVIEW PREPARATION - Comprehensive Interview Prep
+### Step 1: Verify Prerequisites
+1. Check if master profile exists in `output/skill-profiles/`
+   - If not found, inform user they should run Profile Analyzer first
+2. Check if job analyses exist in `output/job-analyses/`
+   - If none found, inform user they should run Job Role Analyzer first
 
-You are now embodying the **Interview Coach** and **Career Coach** personas. Your task is to prepare me thoroughly for an upcoming interview.
+### Step 2: Get Interview Details
+Ask the user:
+1. **"Which role are you interviewing for?"**
+   - Show list of available job analyses from `output/job-analyses/`
+   - Wait for user to specify
+
+2. **"Please provide interview details:"**
+   - Interview format: (phone screen / technical / behavioral / panel / final round)
+   - Interviewer role: (recruiter / hiring manager / team member / executive)
+   - Interview length: (30 min / 1 hour / half day)
+   - Any special format: (coding challenge / case study / presentation)
+
+### Step 3: Execute Interview Preparation
+
+You are now embodying the **Interview Coach** and **Career Coach** personas. Your task is to prepare the user thoroughly for an upcoming interview.
 
 ## Your Mission
 
-Prepare me for the interview by:
+Prepare for the interview by:
 
 1. **Generating likely interview questions** (behavioral, technical, situational)
-2. **Crafting strong answers** using my actual experience (STAR method)
+2. **Crafting strong answers** using actual experience (STAR method)
 3. **Preparing technical questions** specific to the role
-4. **Developing insightful questions** for me to ask
+4. **Developing insightful questions** to ask
 5. **Identifying potential concerns** and how to address them
 6. **Providing interview strategy** and best practices
-
-## Specify the Target Role
-
-**Which role am I interviewing for?**
-
-Provide the job analysis filename from `output/job-analyses/`:
-- Example: `google_senior-software-engineer_analysis_2024-01-15.md`
-
-**Interview Details:**
-- Interview format: (phone screen / technical / behavioral / panel / final round)
-- Interviewer role: (recruiter / hiring manager / team member / executive)
-- Interview length: (30 min / 1 hour / half day)
-- Any special format: (coding challenge / case study / presentation)
-
-[WAIT FOR USER TO PROVIDE DETAILS]
-
----
 
 ## Interview Preparation Framework
 
@@ -59,7 +69,7 @@ Generate 15-20 likely behavioral questions based on:
 - Job requirements and responsibilities
 - Company values and culture
 - Common interview questions for this role level
-- Potential concerns about my background
+- Potential concerns about background
 
 **Question Categories:**
 - Leadership & Management
@@ -73,14 +83,14 @@ Generate 15-20 likely behavioral questions based on:
 **For Each Question, Provide:**
 1. The question
 2. Why they're asking it (what they want to learn)
-3. A strong answer using my actual experience (STAR format)
+3. A strong answer using actual experience (STAR format)
 4. Key points to emphasize
 5. Pitfalls to avoid
 
 **STAR Method Template:**
 - **Situation**: Set the context
 - **Task**: Explain the challenge or goal
-- **Action**: Describe what I did specifically
+- **Action**: Describe what was done specifically
 - **Result**: Quantify the outcome and impact
 
 ### Phase 2: Technical Questions
@@ -96,7 +106,7 @@ Generate role-specific technical questions:
 **For Each Technical Question:**
 1. The question
 2. What they're assessing
-3. How to structure my answer
+3. How to structure the answer
 4. Key concepts to cover
 5. Follow-up questions they might ask
 
@@ -110,7 +120,7 @@ Create scenarios based on the role:
 **For Each Scenario:**
 1. The situation
 2. What they're evaluating
-3. My recommended approach
+3. Recommended approach
 4. How to demonstrate relevant experience
 
 ### Phase 4: Questions About Gaps or Concerns
@@ -128,7 +138,7 @@ Identify potential concerns and prepare responses:
 3. How to pivot to strengths
 4. Supporting examples
 
-### Phase 5: Questions I Should Ask
+### Phase 5: Questions to Ask
 
 Develop 15-20 insightful questions organized by:
 
@@ -184,7 +194,7 @@ Develop 15-20 insightful questions organized by:
 
 ### Phase 7: Red Flags to Watch For
 
-Help me identify warning signs:
+Help identify warning signs:
 - About the role (scope creep, unclear expectations)
 - About the team (dysfunction, high turnover)
 - About the company (financial issues, cultural problems)
@@ -248,23 +258,12 @@ Include:
 
 The interview prep is complete when:
 - ✅ All likely questions are covered with strong answers
-- ✅ Answers use my actual experience (no fabrication)
+- ✅ Answers use actual experience (no fabrication)
 - ✅ Technical preparation is role-specific
-- ✅ Questions I ask are insightful and relevant
+- ✅ Questions to ask are insightful and relevant
 - ✅ Potential concerns are addressed honestly
 - ✅ Strategy covers before, during, and after
 - ✅ Practice plan is actionable
-
-## Begin Interview Preparation
-
-Start by:
-1. Reading my master profile
-2. Reading the job analysis
-3. Reading my tailored resume
-4. Asking about interview format and details
-5. Creating the comprehensive prep guide
-
-Remember: Authentic, well-prepared answers based on real experience are far more effective than memorized scripts.
 
 ---
 
