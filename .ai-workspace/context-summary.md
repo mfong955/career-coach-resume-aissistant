@@ -1,122 +1,226 @@
-# Project Context Summary
+# Career Coach & Resume Assistant - Context Summary
 
-**Project Name:** AI Project Assistant Template  
-**Created:** 2025-11-02  
-**Last Updated:** 2025-11-02
+## Project Overview
 
-## Project Purpose
+This is a comprehensive career coaching and resume assistance package designed to help professionals navigate their career journey, optimize job searches, and land ideal roles.
 
-This is a reusable template for AI-assisted projects. It provides:
-- Structured workspace for AI context and memory
-- Persona system for specialized AI roles
-- Progress tracking across sessions
-- Incremental, testable development approach
+## Project Type
+Career Development & Job Search Support System
 
-## Project Goals
+## Current Phase
+**Setup Complete** - Ready for user to begin using the system
 
-1. **Enable Session Continuity** - AI can pick up where it left off
-2. **Provide Specialized Expertise** - Personas focus on specific aspects
-3. **Ensure Incremental Progress** - Small, testable steps prevent debugging nightmares
-4. **Maintain Project Memory** - History and decisions are preserved
-5. **Support Multiple Project Types** - Customizable for different domains
+## Core Components
 
-## Key Design Decisions
+### 1. Personal Files Management
+- Storage for professional documents (resumes, cover letters, certifications, etc.)
+- Foundation for AI analysis and profile creation
+- Location: `personal-files/`
 
-### Why Personas?
-Instead of re-explaining requirements each session, personas provide persistent role definitions. The AI reads these to understand what expertise to apply and how to communicate.
+### 2. Job Role Analysis
+- Storage and analysis of job descriptions
+- Company research and competitive intelligence
+- Location: `job-roles/`
 
-### Why Incremental Approach?
-Making many changes at once makes debugging impossible. Small, testable increments allow validation at each step.
+### 3. AI Prompt Templates
+- 8 carefully crafted prompts for different career needs
+- Profile analysis, resume tailoring, interview prep, etc.
+- Location: `prompts/`
 
-### Why File-Based Memory?
-Files provide:
-- Persistence across sessions
-- Version control compatibility
-- Human readability
-- Easy customization
+### 4. Output Organization
+- Systematic storage of all AI-generated materials
+- Organized by type (resumes, analyses, plans, etc.)
+- Location: `output/`
 
-### Why This Structure?
-- `.ai-workspace/` keeps AI files separate from project files
-- JSON + MD for personas: JSON for structure, MD for detailed instructions
-- Multiple tracking files: Different granularities for different needs
+### 5. AI Personas
+- 5 specialized expert personas
+- Career Coach, Resume Expert, Professional Branding, Interview Coach, Industry Analyst
+- Location: `.ai-workspace/personas/`
 
-## Current Architecture
+## Key Features
 
-```
-Template Structure:
-├── README.md (user-facing documentation)
-├── AI_PROJECT_ASSISTANT_PROMPT.md (core AI instructions)
-└── .ai-workspace/ (AI reference library)
-    ├── README.md (workspace documentation)
-    ├── session-start.md (session orientation)
-    ├── context-summary.md (this file)
-    ├── progress.md (milestone tracking)
-    ├── session-log.md (interaction history)
-    ├── personas/ (role definitions)
-    │   ├── active-personas.json (configuration)
-    │   └── [persona files].json/.md
-    └── test-checkpoints/ (validation logs)
-```
+### Honesty-First Approach
+- All prompts emphasize 100% factual accuracy
+- No fabrication or exaggeration of skills/experience
+- Strong, truthful presentation over embellishment
 
-## Technology Stack
+### Comprehensive Research
+- Deep company and industry analysis
+- Market intelligence and competitive positioning
+- Data-driven recommendations
 
-- **Format:** Markdown and JSON
-- **Version Control:** Git-compatible
-- **AI Compatibility:** Works with Claude, ChatGPT, and other LLMs
-- **Platform:** Cross-platform (works in VS Code, terminal, web interfaces)
+### Systematic Workflow
+1. Profile Analyzer (foundation)
+2. Job Role Analyzer (understanding)
+3. Resume Tailor (application)
+4. Interview Prep (preparation)
+5. Salary Negotiation (closing)
 
-## Constraints & Requirements
+### Specialized Expertise
+Each persona provides deep domain knowledge:
+- **Career Coach**: Strategic planning and guidance
+- **Resume Expert**: Resume optimization and ATS
+- **Professional Branding**: LinkedIn and personal brand
+- **Interview Coach**: Interview preparation and practice
+- **Industry Analyst**: Company research and market intelligence
 
-- Must be simple enough for non-technical users
-- Must work with various AI assistants
-- Must be customizable without breaking core functionality
-- Must maintain context across sessions
-- Must support incremental development
+## User Workflow
 
-## Project Phases
+### First-Time Setup
+1. Add professional documents to `personal-files/`
+2. Run Profile Analyzer prompt (creates master profile)
+3. System is ready for job applications
 
-### Phase 1: Template Creation (Current)
-- Create directory structure
-- Define core personas
-- Write documentation
-- Establish workflows
+### Job Application Process
+1. Add job description to `job-roles/`
+2. Run Job Role Analyzer (company research & analysis)
+3. Run Resume Tailor (customized resume)
+4. Optional: Run Cover Letter Generator
+5. Submit application
 
-### Phase 2: Testing & Refinement
-- Test with sample projects
-- Refine persona definitions
-- Improve documentation
-- Add examples
+### Interview & Offer Process
+1. Run Interview Prep (when interview scheduled)
+2. Run Salary Negotiation (when offer received)
 
-### Phase 3: Customization Support
-- Create specialized variants
-- Add more persona templates
-- Document customization patterns
-- Build example projects
+### Ongoing Career Development
+- Run Career Planning (strategic development)
+- Run LinkedIn Optimizer (professional branding)
+- Update Profile Analyzer (as skills grow)
 
-## Important Context for AI
+## Success Metrics
 
-- This is a **template**, not a specific application
-- Users will **copy this template** for their own projects
-- The template should be **self-documenting**
-- Personas should be **easy to customize**
-- The workflow should be **intuitive** even for first-time users
+### System Effectiveness
+- Quality of generated materials
+- User confidence in applications
+- Interview request rate
+- Offer quality and quantity
 
-## Success Criteria
+### User Engagement
+- Regular use of prompts
+- Profile updates
+- Systematic job search approach
+- Career goal achievement
 
-1. AI can orient itself in < 30 seconds by reading workspace files
-2. Users can start a new project with minimal setup
-3. Context persists reliably across sessions
-4. Incremental approach prevents debugging issues
-5. Template works for diverse project types
+## Current Status
 
-## Known Issues / Future Improvements
+### Completed
+- ✅ Directory structure created
+- ✅ All 8 prompt templates written
+- ✅ 5 AI personas defined
+- ✅ Documentation complete (READMEs, guides)
+- ✅ Example templates provided
+- ✅ Workflow defined and documented
 
-- Need to create remaining persona files (developer, tester, technical-writer)
-- Need to add example test checkpoints
-- Could add more specialized persona templates
-- Could create project-type-specific variants
-- Could add automated setup scripts
+### Ready for User
+- ✅ System is fully functional
+- ✅ User can begin adding documents
+- ✅ User can start using prompts
+- ✅ All documentation is accessible
+
+### User Next Steps
+1. Read QUICK_START.md
+2. Add professional documents to personal-files/
+3. Run Profile Analyzer prompt
+4. Begin job search with confidence
+
+## Design Principles
+
+### 1. User-Centric
+- Clear, accessible documentation
+- Step-by-step guidance
+- Organized output
+- Privacy-focused (all local)
+
+### 2. Quality-Focused
+- Research-backed prompts
+- Comprehensive analysis
+- Attention to detail
+- Professional standards
+
+### 3. Honest & Authentic
+- Truthful representation
+- No fabrication
+- Authentic voice
+- Realistic expectations
+
+### 4. Systematic & Organized
+- Clear workflow
+- Logical structure
+- Easy navigation
+- Consistent naming
+
+## Technical Details
+
+### File Organization
+- Markdown for documentation and prompts
+- Subdirectories for organization
+- Clear naming conventions
+- Version tracking through dates
+
+### AI Integration
+- Works with Claude, ChatGPT, and similar
+- Copy-paste prompt activation
+- No special setup required
+- Flexible and adaptable
+
+### Privacy & Security
+- All files local
+- No external dependencies
+- User controls all data
+- No automatic sharing
+
+## Future Enhancements (Potential)
+
+### Additional Prompts
+- Networking strategy
+- Personal statement writing
+- Reference management
+- Job search tracking
+
+### Enhanced Features
+- Progress tracking dashboard
+- Success metrics visualization
+- Template customization
+- Multi-language support
+
+### Integration Options
+- Calendar integration for follow-ups
+- CRM for job tracking
+- Analytics for success metrics
+- Automated reminders
+
+## Notes
+
+### For AI Assistants
+When working with this project:
+- Always read the user's master profile first
+- Maintain honesty and accuracy
+- Follow the systematic workflow
+- Reference previous analyses
+- Ask clarifying questions
+- Provide actionable recommendations
+
+### For Users
+- Start with Profile Analyzer (required)
+- Follow prompts in sequence
+- Review and personalize all output
+- Update profile regularly
+- Track your progress
+- Stay consistent
+
+## Project Philosophy
+
+This package exists to help professionals:
+- Present their authentic selves effectively
+- Navigate career transitions with confidence
+- Make informed decisions about opportunities
+- Build sustainable career success
+- Achieve their professional goals
+
+The AI assists, but the user is always in control. Every output should be reviewed, personalized, and aligned with the user's authentic voice and goals.
 
 ---
 
-**Note:** This file should be updated whenever major decisions are made or the project direction changes significantly.
+**Last Updated**: 2024-01-15  
+**Status**: Ready for Use  
+**Next Milestone**: User begins first job application

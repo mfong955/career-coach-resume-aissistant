@@ -1,28 +1,17 @@
 {
-  "lastUpdated": "2025-11-02T20:33:00Z",
-  "projectPhase": "setup",
-  "communicationStyle": "collaborative-partner",
-  "activePersonas": [
-    {
-      "name": "Project Manager",
-      "slug": "project-manager",
-      "priority": 1,
-      "active": true,
-      "reason": "Coordinates overall project planning, tracks progress, and ensures systematic approach"
-    }
+  "active_personas": [
+    "career-coach",
+    "resume-expert",
+    "professional-branding",
+    "interview-coach",
+    "industry-analyst"
   ],
-  "notes": [
-    "This template starts with just the Project Manager persona",
-    "Users should create additional personas based on their specific project needs",
-    "Examples of personas for different project types:",
-    "  - Software: Developer, Tester, Technical Writer, DevOps Engineer",
-    "  - Writing: Author, Editor, Researcher, Fact Checker",
-    "  - Creative: Designer, Copywriter, Art Director, Brand Strategist",
-    "  - Business: Analyst, Strategist, Financial Planner, Market Researcher",
-    "  - Academic: Researcher, Statistician, Peer Reviewer, Academic Writer",
-    "Priority determines order of consideration when multiple personas apply",
-    "Lower priority number = higher importance",
-    "Personas can be activated/deactivated based on project phase",
-    "Communication style options: collaborative-partner, concise-technical, detailed-educational, fast-iterative"
-  ]
+  "project_type": "career-coaching-resume-assistant",
+  "last_updated": "2024-01-15",
+  "persona_coordination": {
+    "primary_coordinator": "career-coach",
+    "collaboration_mode": "dynamic",
+    "context_sharing": true
+  },
+  "notes": "All personas work together to provide comprehensive career coaching and job search support. The Career Coach coordinates overall strategy while specialized personas provide deep expertise in their domains."
 }
