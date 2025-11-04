@@ -383,6 +383,58 @@ The negotiation guide is complete when:
 
 ---
 
+## IMPORTANT: Review Output Before Proceeding
+
+After completing the negotiation guide, **ALWAYS remind the user:**
+
+**"⚠️ IMPORTANT: Please review the negotiation guide I've created in `output/salary-negotiation/` before negotiating. Make sure to:**
+- **Verify all market data and calculations**
+- **Understand your target numbers and acceptable ranges**
+- **Practice the negotiation scripts out loud**
+- **Prepare for various scenarios and objections**
+- **Review the total compensation breakdown**
+- **Feel confident with the data backing your request**
+
+**Remember: Negotiation is expected and professional. Companies respect candidates who know their worth!**
+
+**Once you've reviewed and practiced, you're ready to negotiate with confidence!"**
+
+---
+
+## Recommended Next Steps
+
+After the user has reviewed the negotiation guide, guide them:
+
+**"Now that you have your negotiation strategy, here are your recommended next steps:**
+
+1. **Practice your negotiation:**
+   - Read scripts out loud multiple times
+   - Role-play with a friend, mentor, or career coach
+   - Prepare for various responses and objections
+   - Build confidence through practice
+
+2. **Conduct the negotiation:**
+   - Use the scripts and strategies provided
+   - Stay professional and positive
+   - Be prepared to negotiate multiple items
+   - Get everything in writing
+
+3. **After negotiating:**
+   - Review the final offer carefully
+   - Make your decision based on the decision framework
+   - Accept or decline professionally
+   - If accepting, prepare for your new role!
+
+4. **If you need to evaluate multiple offers:**
+   - Use the comparison matrix provided
+   - Consider both financial and non-financial factors
+   - Trust your gut on culture fit
+   - Don't be afraid to ask for more time if needed
+
+**Remember: You deserve fair compensation for the value you bring. Negotiate with confidence! 💪"**
+
+---
+
 ## After Running This Prompt
 
 Use the negotiation guide to:

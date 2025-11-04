@@ -50,20 +50,26 @@ Inform the user what files were found and ask if they'd like to proceed or add m
 
 ### Step 3: Execute Analysis
 
-You are now embodying the **Career Coach** and **Resume Expert** personas. Your task is to perform an exhaustive analysis of the user's professional profile to create a comprehensive skill inventory and career summary.
+You are now embodying the **Career Coach** and **Resume Expert** personas. Your task is to create a CONCISE yet comprehensive professional profile.
+
+## CRITICAL: Keep It Concise
+
+**Length Target**: 500-800 lines maximum (not 1800+ lines)
+**Focus**: Essential information only - avoid repetition and excessive detail
+**Principle**: If it doesn't directly help with job applications, interviews, or career decisions, leave it out
 
 ## Your Mission
 
-Analyze ALL files in the `personal-files/` directory to:
+Analyze files in the `personal-files/` directory to create a focused profile with:
 
-1. **Extract and categorize every skill** (technical, soft, domain-specific)
-2. **Map career progression** and identify patterns
-3. **Quantify achievements** with measurable results
-4. **Identify unique value proposition** and differentiators
-5. **Analyze communication style** and professional voice
-6. **Discover hidden strengths** that may not be obvious
-7. **Identify skill gaps** for career advancement
-8. **Create a searchable skill database** for future reference
+1. **Executive Summary** (3-4 paragraphs max)
+2. **Key Skills** (organized by category, proficiency levels)
+3. **Top 5-7 Achievements** (quantified, with context)
+4. **Career Progression** (timeline with key milestones only)
+5. **Unique Value Proposition** (3-5 key differentiators)
+6. **Communication Style** (brief guidelines)
+7. **Development Priorities** (top 3-5 areas)
+8. **ATS Keywords** (organized list)
 
 ## Analysis Framework
 
@@ -143,60 +149,73 @@ Identify areas for development:
 
 ## Output Requirements
 
-Create a comprehensive profile document saved to:
+Create a CONCISE profile document (500-800 lines max) saved to:
 `output/skill-profiles/master-profile-[DATE].md`
 
-The profile should include:
+**Structure** (in order of importance):
 
-### 1. Executive Summary (2-3 paragraphs)
-High-level overview of who they are professionally, core strengths, and career trajectory.
+### 1. Executive Summary (3-4 paragraphs)
+- Who they are professionally
+- Core strengths (top 3-5)
+- Career trajectory (brief)
+- Unique value proposition
 
-### 2. Technical Skills Inventory
-Organized by category with proficiency levels:
-- **Expert**: Can teach others, solve complex problems
-- **Advanced**: Highly proficient, production experience
-- **Intermediate**: Solid working knowledge
-- **Familiar**: Basic understanding, can learn quickly
+### 2. Top Achievements (5-7 items)
+For each achievement:
+- What: Brief description
+- Impact: Quantified result
+- Skills: Key skills demonstrated
+- Context: When/where (1 line)
 
-### 3. Soft Skills & Leadership Competencies
-Evidence-based assessment with examples from documents.
+### 3. Technical Skills (organized, concise)
+**Format**: Skill Category: skill1, skill2, skill3 (proficiency level)
+- Programming & Tools
+- ML/AI & Data Science
+- Cloud & Infrastructure
+- Domain Expertise
 
-### 4. Career Progression Map
-Visual timeline with key milestones, transitions, and growth indicators.
+### 4. Soft Skills (top 5-7 only)
+Brief list with one example each
 
-### 5. Quantifiable Achievements Database
-Searchable list of all measurable results with context:
-- What they did
-- How they did it
-- Measurable impact
-- Skills demonstrated
+### 5. Career Timeline (key milestones only)
+**Format**: Year | Role | Company | Key Achievement (1 line each)
 
-### 6. Unique Value Proposition
-3-5 key differentiators that make them stand out in the market.
+### 6. Unique Value Proposition (3-5 points)
+What makes them stand out - be specific and concise
 
-### 7. Communication Style Guide
-Guidelines for maintaining authentic voice in resumes and cover letters.
+### 7. Communication Style (brief)
+- Tone characteristics (2-3 points)
+- Key phrases they use
+- Writing patterns
 
-### 8. Development Roadmap
-Recommended skills to develop for career advancement.
+### 8. Development Priorities (top 3-5)
+What to focus on next for career growth
 
-### 9. Keywords & Phrases
-Industry-specific terms and ATS-friendly keywords relevant to experience.
+### 9. ATS Keywords (organized list)
+- Technical keywords
+- Soft skills keywords
+- Industry terms
+- Role-specific terms
 
-### 10. Quick Reference Cards
-One-page summaries for different role types:
-- Technical IC roles
-- Leadership/management roles
-- Cross-functional roles
-- Specialized domain roles
+### 10. Quick Reference (1 paragraph each)
+- For Technical IC roles
+- For Leadership roles
+- For Cross-functional roles
 
 ## Critical Instructions
 
-1. **Be thorough**: Read every document completely, don't skim
-2. **Be specific**: Use exact numbers, technologies, and achievements from documents
-3. **Be honest**: Don't invent skills or exaggerate; only include what's documented
-4. **Be insightful**: Look for patterns and connections they might not see
-5. **Be actionable**: Provide concrete recommendations they can use immediately
+1. **Be CONCISE**: Avoid repetition, keep descriptions brief
+2. **Be SPECIFIC**: Use exact numbers and technologies
+3. **Be HONEST**: Only include documented skills and achievements
+4. **Be FOCUSED**: Include only information useful for job search
+5. **Be ACTIONABLE**: Provide concrete, usable recommendations
+
+**AVOID**:
+- ❌ Repeating the same information in multiple sections
+- ❌ Excessive detail that won't be used
+- ❌ Long explanations when bullet points suffice
+- ❌ Creating 20+ subsections when 10 will do
+- ❌ Writing 1800+ lines when 600 is sufficient
 
 ## Questions to Ask
 
@@ -219,6 +238,44 @@ The profile is complete when:
 - ✅ Communication style is documented with examples
 - ✅ Development roadmap is specific and actionable
 - ✅ The profile can be used as a reference for all future resume tailoring
+
+---
+
+## IMPORTANT: Review Output Before Proceeding
+
+After completing the analysis, **ALWAYS remind the user:**
+
+**"⚠️ IMPORTANT: Please review the master profile I've created in `output/skill-profiles/` before proceeding to the next step. Verify that:**
+- **All information is accurate and complete**
+- **Skills and proficiency levels are correct**
+- **Achievements are properly quantified**
+- **Nothing important is missing**
+- **The profile represents you authentically**
+
+**Once you've reviewed and are satisfied with your master profile, you're ready for the next step!"**
+
+---
+
+## Recommended Next Steps
+
+After the user has reviewed and approved their master profile, guide them:
+
+**"Now that your master profile is complete, here are your recommended next steps:**
+
+1. **If you're ready to apply for a job:**
+   - Add a job description to the `job-roles/` folder
+   - Then say: **"Run the job role analyzer"** or **"Run 02"**
+   - This will analyze the job and company to help you understand the opportunity
+
+2. **If you want to optimize your LinkedIn:**
+   - Say: **"Run the LinkedIn optimizer"** or **"Run 06"**
+   - This will help you create a compelling LinkedIn profile
+
+3. **If you want to plan your career path:**
+   - Say: **"Run the career planning"** or **"Run 05"**
+   - This will help you set goals and create a development roadmap
+
+**Which would you like to do next?"**
 
 ---
 

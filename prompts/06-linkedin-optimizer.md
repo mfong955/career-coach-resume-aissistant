@@ -342,6 +342,65 @@ The LinkedIn optimization is complete when:
 
 ---
 
+## IMPORTANT: Review Output Before Proceeding
+
+After completing the LinkedIn optimization, **ALWAYS remind the user:**
+
+**"⚠️ IMPORTANT: Please review the LinkedIn optimization guide I've created in `output/professional-branding/` before updating your profile. Make sure to:**
+- **Choose the headline that feels most authentic to you**
+- **Customize the About section to match your voice**
+- **Verify all experience descriptions are accurate**
+- **Review the skills list and prioritize what matters most**
+- **Ensure the content strategy fits your comfort level**
+- **Check that everything aligns with your career goals**
+
+**LinkedIn is your professional storefront - take time to make it shine!**
+
+**Once you've reviewed the guide, start implementing the changes systematically!"**
+
+---
+
+## Recommended Next Steps
+
+After the user has reviewed the LinkedIn optimization guide, guide them:
+
+**"Now that you have your LinkedIn optimization guide, here are your recommended next steps:**
+
+1. **Update your profile systematically:**
+   - Start with headline and About section (highest impact)
+   - Update experience descriptions one by one
+   - Add all skills and prioritize top 3
+   - Complete all sections for 100% profile strength
+   - Add media and featured content
+
+2. **Implement your content strategy:**
+   - Start with 1-2 posts per week
+   - Engage with others' content daily
+   - Join relevant groups and participate
+   - Build momentum gradually
+
+3. **Grow your network:**
+   - Send 5-10 personalized connection requests per week
+   - Engage with your network's content
+   - Provide value before asking for favors
+   - Aim for 500+ connections
+
+4. **If you're actively job searching:**
+   - Turn on "Open to Work" in settings
+   - Update your profile weekly to stay visible
+   - Engage more frequently to boost visibility
+   - Say: **"Run the job role analyzer"** when you find opportunities
+
+5. **Track your progress:**
+   - Monitor profile views weekly
+   - Track connection growth
+   - Note which content performs best
+   - Adjust strategy based on results
+
+**Remember: LinkedIn is a long-term investment in your professional brand. Consistency beats perfection! 💼"**
+
+---
+
 ## After Running This Prompt
 
 Use the optimization guide to:
