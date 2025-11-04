@@ -2,6 +2,104 @@
 
 A comprehensive AI-powered career coaching and resume assistance package designed to help you navigate your career journey, optimize your job search, and land your dream role.
 
+## 🛠️ Installation & Setup
+
+### Step 1: Get the Repository
+
+#### Option A: Clone with Git (Recommended)
+If you have Git installed:
+```bash
+git clone https://github.com/mfong955/career-coach-resume-aissistant.git
+cd career-coach-resume-aissistant
+```
+
+#### Option B: Download ZIP
+1. Go to [https://github.com/mfong955/career-coach-resume-aissistant](https://github.com/mfong955/career-coach-resume-aissistant)
+2. Click the green "Code" button
+3. Select "Download ZIP"
+4. Extract the ZIP file to your desired location
+5. Open the extracted folder
+
+### Step 2: Set Up Your Development Environment
+
+#### Recommended Setup: VS Code + AI Extension
+
+**Install VS Code:**
+1. Download VS Code from [https://code.visualstudio.com/docs/setup/setup-overview](https://code.visualstudio.com/docs/setup/setup-overview)
+2. Follow the installation instructions for your operating system (Windows, macOS, or Linux)
+3. Launch VS Code
+
+**Install Kilo AI Extension (Recommended):**
+1. Open VS Code
+2. Go to Extensions (Ctrl+Shift+X or Cmd+Shift+X on Mac)
+3. Search for "Kilo" or visit [https://kilocode.ai/](https://kilocode.ai/)
+4. Click "Install"
+5. Follow the setup instructions to connect your AI provider (Claude, ChatGPT, etc.)
+
+**Alternative AI Extensions:**
+- **Cline** - Autonomous coding agent for VS Code
+- **Claude for VS Code** - Direct Claude integration
+- **Amazon Q** - AWS's AI coding assistant
+- **GitHub Copilot Chat** - If you have GitHub Copilot
+- **Continue** - Open-source AI coding assistant
+
+#### Alternative Setup: Use Any AI Tool
+
+You can use this package with any AI assistant:
+- **Claude** (Web or Desktop app)
+- **ChatGPT** (Web or Desktop app)
+- **Any other AI assistant** that can read files and follow prompts
+
+### Step 3: Open the Repository in Your AI Tool
+
+#### If Using VS Code with AI Extension:
+1. Open the `career-coach-resume-aissistant` folder in VS Code
+2. Open your AI assistant (e.g., Kilo sidebar)
+3. The AI can now access all files in the repository
+
+#### If Using Web-Based AI:
+1. Open your AI assistant (Claude, ChatGPT, etc.)
+2. You'll need to manually share files with the AI as needed
+3. Follow the traditional copy-paste method for prompts
+
+### Step 4: Let the AI Learn About the Package
+
+**First Command to Give Your AI:**
+
+Once your AI tool is set up and can access the repository, say:
+
+```
+Please read the following files to understand this career coaching package:
+1. README.md
+2. QUICK_START.md
+3. prompts/README.md
+
+Then let me know you're ready to help me with my career journey.
+```
+
+The AI will read these files and understand:
+- What the package does
+- How to use the prompts
+- The workflow and best practices
+- How to help you effectively
+
+### Step 5: Add Your Documents
+
+Before running any prompts, add your professional documents:
+1. Add your current resume to `personal-files/current-resume/`
+2. (Optional) Add cover letters to `personal-files/cover-letters/`
+3. (Optional) Add other documents to their respective folders
+
+### Step 6: Start Using the Package
+
+Once setup is complete, you're ready to begin! Simply say:
+
+**"Run the profile analyzer"**
+
+The AI will guide you through creating your master profile, which is the foundation for everything else.
+
+---
+
 ## 🎯 What This Package Does
 
 This package provides you with:
@@ -382,10 +480,13 @@ All generated materials are systematically organized and easy to find.
 
 ## 🚀 Ready to Get Started?
 
-1. **Read** [`QUICK_START.md`](./QUICK_START.md) for detailed setup instructions
-2. **Add** your professional documents to `personal-files/`
-3. **Run** the Profile Analyzer prompt
-4. **Start** applying to jobs with confidence!
+1. **Complete the setup** - Follow the [Installation & Setup](#-installation--setup) section above
+2. **Let the AI learn** - Give it the recommended first command to read the key files
+3. **Add your documents** - Put your resume and other files in `personal-files/`
+4. **Run Profile Analyzer** - Say "Run the profile analyzer" to create your master profile
+5. **Start applying** - Use the prompts to land your dream job with confidence!
+
+For detailed step-by-step guidance, see [`QUICK_START.md`](./QUICK_START.md).
 
 ## 📝 License & Usage
 
@@ -396,3 +497,9 @@ This package is designed for personal career development use. Feel free to custo
 **Remember**: This package is a tool to help you present your authentic self effectively. The AI assists, but you're in control. Your career journey is unique - use these tools to tell your story honestly and compellingly.
 
 **Good luck with your career journey! 🎯**
+
+---
+
+**Questions/comments/suggestions**: If you have any questions/comments/suggestions, please feel free to reach out to me on LinkedIn! https://www.linkedin.com/in/matthew-w-fong/
+
+I'm recently unemployed so I figured I'd have some fun creating AI tools. I hope this helps you too!

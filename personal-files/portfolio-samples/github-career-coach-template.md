@@ -78,9 +78,11 @@ Add your professional documents to [`personal-files/`](./personal-files/):
 
 ### 2. Run Profile Analyzer (REQUIRED FIRST STEP)
 
-Open [`prompts/01-profile-analyzer.md`](./prompts/01-profile-analyzer.md) and copy everything below "ACTIVATE THIS PROMPT" into your AI conversation. This creates your master profile that all other prompts reference.
+**Simply say**: **"Run the profile analyzer"** or **"Run 01-profile-analyzer.md"**
 
-**Time**: 30-45 minutes  
+The AI will automatically check prerequisites and guide you through creating your master profile that all other prompts reference.
+
+**Time**: 30-45 minutes
 **Output**: Comprehensive skill profile in `output/skill-profiles/`
 
 ### 3. Add Job Descriptions
@@ -92,46 +94,54 @@ When you find a role you want to apply to:
 
 ### 4. Analyze the Job
 
-Open [`prompts/02-job-role-analyzer.md`](./prompts/02-job-role-analyzer.md) and activate it. The AI will:
+**Simply say**: **"Run the job role analyzer"** or **"Run 02"**
+
+The AI will:
 - Research the company deeply
 - Analyze job requirements
 - Compare your profile to typical candidates
 - Provide application strategy
 
-**Time**: 20-30 minutes  
+**Time**: 20-30 minutes
 **Output**: Detailed analysis in `output/job-analyses/`
 
 ### 5. Tailor Your Resume
 
-Open [`prompts/03-resume-tailor.md`](./prompts/03-resume-tailor.md) to create a customized resume that:
+**Simply say**: **"Run the resume tailor"** or **"Run 03"**
+
+The AI will create a customized resume that:
 - Emphasizes relevant experience
 - Optimizes for ATS systems
 - Maintains 100% honesty
 - Positions you as the ideal candidate
 
-**Time**: 15-20 minutes  
+**Time**: 15-20 minutes
 **Output**: Tailored resume in `output/tailored-resumes/`
 
 ### 6. Prepare for Interviews
 
-When you get an interview, use [`prompts/04-interview-prep.md`](./prompts/04-interview-prep.md) to:
+**Simply say**: **"Run the interview prep"** or **"Run 04"**
+
+The AI will:
 - Generate likely questions
 - Craft strong STAR-method answers
 - Develop insightful questions to ask
 - Build confidence through preparation
 
-**Time**: 30-45 minutes  
+**Time**: 30-45 minutes
 **Output**: Interview guide in `output/interview-prep/`
 
 ### 7. Negotiate Your Offer
 
-After receiving an offer, use [`prompts/08-salary-negotiation.md`](./prompts/08-salary-negotiation.md) to:
+**Simply say**: **"Run the salary negotiation"** or **"Run 08"**
+
+The AI will:
 - Research market rates
 - Calculate your value
 - Develop negotiation strategy
 - Practice negotiation scripts
 
-**Time**: 20-30 minutes  
+**Time**: 20-30 minutes
 **Output**: Negotiation guide in `output/salary-negotiation/`
 
 ## 📁 Project Structure
@@ -280,22 +290,25 @@ Learn about the AI experts helping you:
 
 ## 🤝 How to Use This Package
 
-### With Claude (Recommended)
-1. Open Claude in VS Code or web interface
-2. Copy prompt from the markdown file
-3. Paste into conversation
+### Easy Activation Method (Recommended) 🎉
+**No more copying and pasting!** Just say:
+- **"Run the profile analyzer"**
+- **"Run the job role analyzer"**
+- **"Run resume tailor"**
+- Or any similar variation!
+
+The AI will automatically check prerequisites and guide you through the process.
+
+### Traditional Method (Still Works)
+If you prefer the traditional approach:
+1. Open the prompt file (e.g., `prompts/01-profile-analyzer.md`)
+2. Copy everything below "PROMPT INSTRUCTIONS (For AI)"
+3. Paste into your AI conversation
 4. Follow AI's instructions
 5. Review generated output
 
-### With ChatGPT
-1. Open ChatGPT
-2. Copy prompt from the markdown file
-3. Paste into conversation
-4. Follow AI's instructions
-5. Review generated output
-
-### With Other AI Assistants
-The prompts are designed to work with any capable AI assistant. Simply copy and paste the prompt content.
+### Compatible AI Assistants
+Works with Claude, ChatGPT, and other capable AI assistants.
 
 ## 📈 Success Metrics
 
@@ -311,11 +324,12 @@ Track your progress:
 
 ### If Something Isn't Working
 
-1. **Check prerequisites**: Did you run Profile Analyzer first?
-2. **Review the prompt**: Did you copy everything below "ACTIVATE THIS PROMPT"?
+1. **Check prerequisites**: Did you run Profile Analyzer first? (say "Run the profile analyzer")
+2. **Try the activation command**: Say "Run [prompt name]" or "Run 01", "Run 02", etc.
 3. **Provide more context**: The AI may need additional information
-4. **Try again**: Sometimes rephrasing helps
-5. **Check the README**: Each directory has usage instructions
+4. **Try variations**: "Activate profile analyzer", "Start 01-profile-analyzer.md", etc.
+5. **Use traditional method**: Copy and paste the prompt if activation doesn't work
+6. **Check the README**: Each directory has usage instructions
 
 ### Common Questions
 

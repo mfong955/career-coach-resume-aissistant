@@ -45,23 +45,22 @@ Add your professional documents to the appropriate folders:
 
 This is the **most important step** - don't skip it!
 
-1. **Open** [`prompts/01-profile-analyzer.md`](./prompts/01-profile-analyzer.md)
+1. **Open your AI assistant** (Claude, ChatGPT, etc.)
 
-2. **Scroll down** to the line that says "ACTIVATE THIS PROMPT"
+2. **Simply say**: **"Run the profile analyzer"** or **"Run 01-profile-analyzer.md"**
 
-3. **Copy everything below that line** (Ctrl+A or Cmd+A to select all, then copy)
+3. **The AI will automatically**:
+   - Check that your resume exists
+   - List all files found in `personal-files/`
+   - Ask if you want to add more files
+   - Execute the comprehensive analysis
 
-4. **Open your AI assistant** (Claude, ChatGPT, etc.)
-
-5. **Paste the prompt** into the conversation
-
-6. **Follow the AI's instructions**:
-   - It will list the files it found
+4. **Follow the AI's instructions**:
    - It may ask clarifying questions
    - Answer honestly and thoroughly
    - Be patient - this takes 30-45 minutes
 
-7. **Review the output**:
+5. **Review the output**:
    - The AI will create a comprehensive profile in `output/skill-profiles/`
    - This profile becomes the foundation for everything else
    - Review it for accuracy
@@ -99,23 +98,24 @@ Now let's use the system to apply for a job!
 
 ### Step 4: Analyze the Job (20-30 minutes)
 
-1. **Open** [`prompts/02-job-role-analyzer.md`](./prompts/02-job-role-analyzer.md)
+1. **Simply say**: **"Run the job role analyzer"** or **"Run 02"**
 
-2. **Copy everything below "ACTIVATE THIS PROMPT"**
+2. **The AI will automatically**:
+   - Verify your master profile exists
+   - Show available job descriptions
+   - Ask which one to analyze
 
-3. **Paste into your AI conversation**
-
-4. **Specify the job file** when asked:
+3. **Specify the job file** when asked:
    - Example: `google_senior-engineer_2024-01-15.md`
 
-5. **The AI will**:
+4. **The AI will**:
    - Read your master profile
    - Analyze the job description
    - Research the company independently
    - Compare your profile to typical candidates
    - Provide strategic recommendations
 
-6. **Review the analysis** in `output/job-analyses/`
+5. **Review the analysis** in `output/job-analyses/`
 
 **✅ Success Check**: You should have a comprehensive analysis including:
 - Job requirements breakdown
@@ -126,25 +126,21 @@ Now let's use the system to apply for a job!
 
 ### Step 5: Tailor Your Resume (15-20 minutes)
 
-1. **Open** [`prompts/03-resume-tailor.md`](./prompts/03-resume-tailor.md)
+1. **Simply say**: **"Run the resume tailor"** or **"Run 03"**
 
-2. **Copy everything below "ACTIVATE THIS PROMPT"**
+2. **Specify the job analysis file** when asked
 
-3. **Paste into your AI conversation**
-
-4. **Specify the job analysis file** when asked
-
-5. **The AI will create**:
+3. **The AI will create**:
    - ATS-optimized plain text resume
    - Human-readable formatted resume
    - Tailoring notes with recommendations
 
-6. **Review and personalize**:
+4. **Review and personalize**:
    - Check all facts are accurate
    - Ensure it sounds like you
    - Make any final adjustments
 
-7. **Convert to PDF** for submission (if needed)
+5. **Convert to PDF** for submission (if needed)
 
 **✅ Success Check**: You should have:
 - `output/tailored-resumes/company_role_resume_ATS_date.txt`
@@ -155,9 +151,9 @@ Now let's use the system to apply for a job!
 
 If the application requests a cover letter:
 
-1. **Open** [`prompts/07-cover-letter-generator.md`](./prompts/07-cover-letter-generator.md)
+1. **Simply say**: **"Run the cover letter generator"** or **"Run 07"**
 
-2. **Follow the same process** as above
+2. **Follow the AI's instructions**
 
 3. **Review and personalize** the generated cover letter
 
@@ -177,22 +173,20 @@ You now have:
 
 ### Step 8: Prepare for the Interview (30-45 minutes)
 
-1. **Open** [`prompts/04-interview-prep.md`](./prompts/04-interview-prep.md)
+1. **Simply say**: **"Run the interview prep"** or **"Run 04"**
 
-2. **Activate the prompt** (same process as before)
-
-3. **Specify**:
+2. **Specify**:
    - The job analysis file
    - Interview format (phone, technical, panel, etc.)
    - Any other details you have
 
-4. **The AI will create**:
+3. **The AI will create**:
    - Likely behavioral questions with STAR answers
    - Technical questions and approaches
    - Questions for you to ask
    - Interview strategy guide
 
-5. **Practice**:
+4. **Practice**:
    - Read answers out loud
    - Practice with a friend
    - Refine your stories
@@ -206,23 +200,21 @@ You now have:
 
 ### Step 9: Negotiate Your Compensation (20-30 minutes)
 
-1. **Open** [`prompts/08-salary-negotiation.md`](./prompts/08-salary-negotiation.md)
+1. **Simply say**: **"Run the salary negotiation"** or **"Run 08"**
 
-2. **Activate the prompt**
-
-3. **Provide offer details**:
+2. **Provide offer details**:
    - Base salary offered
    - Equity/stock options
    - Bonus structure
    - Benefits overview
 
-4. **The AI will**:
+3. **The AI will**:
    - Research market rates
    - Calculate your market value
    - Develop negotiation strategy
    - Provide negotiation scripts
 
-5. **Practice and negotiate** with confidence!
+4. **Practice and negotiate** with confidence!
 
 ---
 
@@ -230,7 +222,9 @@ You now have:
 
 ### Career Planning
 
-Use [`prompts/05-career-planning.md`](./prompts/05-career-planning.md) to:
+**Simply say**: **"Run the career planning"** or **"Run 05"**
+
+Use this to:
 - Set career goals
 - Create development roadmap
 - Plan career transitions
@@ -238,7 +232,9 @@ Use [`prompts/05-career-planning.md`](./prompts/05-career-planning.md) to:
 
 ### LinkedIn Optimization
 
-Use [`prompts/06-linkedin-optimizer.md`](./prompts/06-linkedin-optimizer.md) to:
+**Simply say**: **"Run the LinkedIn optimizer"** or **"Run 06"**
+
+Use this to:
 - Optimize your profile
 - Develop content strategy
 - Build your network
@@ -249,7 +245,8 @@ Use [`prompts/06-linkedin-optimizer.md`](./prompts/06-linkedin-optimizer.md) to:
 ## 💡 Tips for Success
 
 ### Do's ✅
-- **Run Profile Analyzer first** - it's the foundation
+- **Run Profile Analyzer first** - it's the foundation (just say "Run the profile analyzer")
+- **Use simple commands** - "Run 01", "Run resume tailor", etc.
 - **Provide complete information** - more context = better results
 - **Review and personalize** - make AI output your own
 - **Update regularly** - keep your profile current
@@ -268,6 +265,15 @@ Use [`prompts/06-linkedin-optimizer.md`](./prompts/06-linkedin-optimizer.md) to:
 
 ## 🆘 Troubleshooting
 
+### "How do I activate a prompt?"
+- Just say "Run the [prompt name]" - e.g., "Run the profile analyzer"
+- Or use the number: "Run 01", "Run 02", etc.
+- The AI will automatically check prerequisites and guide you
+
+### "The AI didn't understand my command"
+- Try variations: "Run profile analyzer", "Activate 01-profile-analyzer.md", "Start the profile analyzer"
+- Or use the traditional method: copy the prompt from the file
+
 ### "The AI didn't create the output file"
 - The AI generates content - you may need to save it manually
 - Check the `output/` directory for the file
@@ -279,12 +285,12 @@ Use [`prompts/06-linkedin-optimizer.md`](./prompts/06-linkedin-optimizer.md) to:
 - The AI will work with available information
 
 ### "The output seems generic"
-- Make sure you ran Profile Analyzer first
+- Make sure you ran Profile Analyzer first (say "Run the profile analyzer")
 - Provide more specific information when asked
 - Ask the AI to be more specific or detailed
 
 ### "I need to update my profile"
-- Just run Profile Analyzer again with updated files
+- Just say "Run the profile analyzer" again with updated files
 - It will create a new dated version
 - Previous versions are preserved for reference
 
