@@ -311,14 +311,14 @@ You now have a comprehensive system for:
 
 ### Common Issues
 - **"AI didn't create output"**: Save the response manually
-- **"Output seems generic"**: Ensure Profile Analyzer ran first
-- **"Need to update profile"**: Just run Profile Analyzer again
-- **"Prompt not working"**: Copy everything below "ACTIVATE THIS PROMPT"
+- **"Output seems generic"**: Ensure Profile Analyzer ran first (say "Run the profile analyzer")
+- **"Need to update profile"**: Just say "Run the profile analyzer" again
+- **"Prompt not working"**: Try saying "Run [prompt name]" or use the traditional copy-paste method
 
 ---
 
 **Version**: 1.0  
-**Last Updated**: 2024-01-15  
+**Last Updated**: 2025-11-04
 **Status**: Ready for Use
 
 **Good luck with your career journey! 🌟**
