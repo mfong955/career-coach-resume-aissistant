@@ -497,3 +497,9 @@ This package is designed for personal career development use. Feel free to custo
 **Remember**: This package is a tool to help you present your authentic self effectively. The AI assists, but you're in control. Your career journey is unique - use these tools to tell your story honestly and compellingly.
 
 **Good luck with your career journey! 🎯**
+
+---
+
+**Questions/comments/suggestions**: If you have any questions/comments/suggestions, please feel free to reach out to me on LinkedIn! https://www.linkedin.com/in/matthew-w-fong/
+
+I'm recently unemployed so I figured I'd have some fun creating AI tools. I hope this helps you too!
