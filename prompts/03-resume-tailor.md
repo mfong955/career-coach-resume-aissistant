@@ -284,6 +284,56 @@ The tailored resume is complete when:
 
 ---
 
+## IMPORTANT: Review Output Before Proceeding
+
+After completing the resume tailoring, **ALWAYS remind the user:**
+
+**"⚠️ IMPORTANT: Please review the tailored resume I've created in `output/tailored-resumes/` before proceeding. Verify that:**
+- **All information is 100% factually accurate**
+- **Dates, titles, and companies are correct**
+- **Achievements are properly quantified**
+- **The resume sounds like you (authentic voice)**
+- **Keywords are naturally integrated**
+- **Nothing is exaggerated or fabricated**
+- **The format is clean and professional**
+
+**I've created three files:**
+1. **ATS-optimized version** (plain text for online applications)
+2. **Human-readable version** (formatted for PDF conversion)
+3. **Tailoring notes** (explains changes and provides recommendations)
+
+**Once you've reviewed and are satisfied with the resume, you're ready for the next step!"**
+
+---
+
+## Recommended Next Steps
+
+After the user has reviewed and approved the tailored resume, guide them:
+
+**"Now that your tailored resume is ready, here are your recommended next steps:**
+
+1. **If the application requires a cover letter:**
+   - Say: **"Run the cover letter generator"** or **"Run 07"**
+   - This will create a compelling cover letter to accompany your resume
+
+2. **If you're ready to submit the application:**
+   - Convert the formatted resume to PDF (if needed)
+   - Use the ATS version for online application systems
+   - Review the tailoring notes for additional application tips
+   - Submit your application!
+
+3. **If you want to prepare for potential interviews:**
+   - Say: **"Run the interview prep"** or **"Run 04"**
+   - This will help you prepare answers and questions for interviews
+
+4. **If you want to tailor your resume for another job:**
+   - Add another job description to `job-roles/`
+   - Run the job role analyzer, then resume tailor again
+
+**What would you like to do next?"**
+
+---
+
 ## After Running This Prompt
 
 The AI will create:

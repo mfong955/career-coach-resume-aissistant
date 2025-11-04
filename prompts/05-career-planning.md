@@ -314,6 +314,54 @@ The career plan is complete when:
 
 ---
 
+## IMPORTANT: Review Output Before Proceeding
+
+After completing the career plan, **ALWAYS remind the user:**
+
+**"⚠️ IMPORTANT: Please review the career plan I've created in `output/career-plans/` before proceeding. Make sure to:**
+- **Verify the goals align with your true aspirations**
+- **Ensure the timeline is realistic for your situation**
+- **Check that the action items are achievable**
+- **Confirm the paths explored resonate with you**
+- **Review the success metrics and adjust if needed**
+- **Consider the obstacles and mitigation strategies**
+
+**This is YOUR career plan - it should feel authentic and motivating to you!**
+
+**Once you've reviewed and are satisfied with the plan, you're ready to start taking action!"**
+
+---
+
+## Recommended Next Steps
+
+After the user has reviewed the career plan, guide them:
+
+**"Now that you have your career plan, here are your recommended next steps:**
+
+1. **Start with the 90-day action plan:**
+   - Pick 2-3 immediate actions to start this week
+   - Set up tracking for your progress
+   - Schedule time for skill development
+   - Begin building your network
+
+2. **If you're ready to pursue new opportunities:**
+   - Say: **"Run the LinkedIn optimizer"** or **"Run 06"**
+   - This will help you build your professional brand and visibility
+
+3. **If you have a specific job in mind:**
+   - Add the job description to `job-roles/`
+   - Say: **"Run the job role analyzer"** or **"Run 02"**
+   - This will help you assess fit and prepare your application
+
+4. **Schedule regular reviews:**
+   - Monthly: Review progress on action items
+   - Quarterly: Assess milestones and adjust plan
+   - Annually: Update your master profile and career plan
+
+**Remember: Career development is a journey, not a destination. Stay focused, be patient, and celebrate small wins along the way! 🚀"**
+
+---
+
 ## After Running This Prompt
 
 Use the career plan to:

@@ -267,6 +267,51 @@ The interview prep is complete when:
 
 ---
 
+## IMPORTANT: Review Output Before Proceeding
+
+After completing the interview preparation, **ALWAYS remind the user:**
+
+**"⚠️ IMPORTANT: Please review the interview prep guide I've created in `output/interview-prep/` before your interview. Make sure to:**
+- **Practice all answers out loud** (not just reading them)
+- **Verify all examples and stories are accurate**
+- **Customize answers to sound like you**
+- **Prepare your questions to ask**
+- **Review the strategy guide**
+- **Conduct at least one mock interview**
+
+**The more you practice, the more confident and natural you'll be in the actual interview!"**
+
+---
+
+## Recommended Next Steps
+
+After the user has reviewed the interview prep guide, guide them:
+
+**"Now that you have your interview prep guide, here are your recommended next steps:**
+
+1. **Practice, practice, practice:**
+   - Read answers out loud multiple times
+   - Record yourself and listen back
+   - Conduct mock interviews with a friend or mentor
+   - Time your answers (aim for 2-3 minutes for behavioral questions)
+
+2. **After the interview:**
+   - Send a thank-you email within 24 hours
+   - Note any questions you struggled with
+   - Reflect on what went well and what to improve
+
+3. **If you get the offer:**
+   - Say: **"Run the salary negotiation"** or **"Run 08"**
+   - This will help you negotiate the best compensation package
+
+4. **If you're interviewing for multiple roles:**
+   - Run this prompt again for each specific role
+   - Tailor your preparation to each company and position
+
+**Good luck with your interview! You've got this! 🎯"**
+
+---
+
 ## After Running This Prompt
 
 Use the interview prep guide to:

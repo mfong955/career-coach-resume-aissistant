@@ -289,6 +289,55 @@ The cover letter is complete when:
 
 ---
 
+## IMPORTANT: Review Output Before Proceeding
+
+After completing the cover letter, **ALWAYS remind the user:**
+
+**"⚠️ IMPORTANT: Please review the cover letter I've created in `output/cover-letters/` before submitting. Verify that:**
+- **All information is accurate** (names, titles, company details)
+- **It sounds like you** (authentic voice)
+- **No typos or grammatical errors**
+- **The tone matches the company culture**
+- **It complements (not repeats) your resume**
+- **The opening grabs attention**
+- **Company knowledge is demonstrated**
+
+**I've also provided alternative opening options - choose the one that feels most authentic to you!**
+
+**Once you've reviewed and are satisfied with the cover letter, you're ready to submit your application!"**
+
+---
+
+## Recommended Next Steps
+
+After the user has reviewed and approved the cover letter, guide them:
+
+**"Now that your cover letter is ready, here are your recommended next steps:**
+
+1. **Submit your application:**
+   - Convert the cover letter to PDF (if required)
+   - Double-check all application materials
+   - Submit through the appropriate channel
+   - Save confirmation of submission
+
+2. **Prepare for potential interviews:**
+   - Say: **"Run the interview prep"** or **"Run 04"**
+   - This will help you prepare for interviews if you get called
+
+3. **Track your application:**
+   - Note the submission date
+   - Set a reminder to follow up (if appropriate)
+   - Keep a copy of all materials submitted
+
+4. **Continue your job search:**
+   - Don't put all eggs in one basket
+   - Keep applying to other opportunities
+   - Run the job role analyzer for other positions
+
+**Good luck with your application! 🚀"**
+
+---
+
 ## After Running This Prompt
 
 Use the cover letter to:
