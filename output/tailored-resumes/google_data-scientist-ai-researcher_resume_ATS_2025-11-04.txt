@@ -1,0 +1,82 @@
+MATTHEW FONG
+Palo Alto, CA | (408) 555-0123 | matthew.fong@email.com | linkedin.com/in/matthewfong | github.com/mfong955
+
+DATA SCIENTIST | PhD RESEARCHER | AI/ML SPECIALIST
+PhD in Physics & Astrophysics with 7+ years applying machine learning to complex problems. Proven track record of AI model evaluation, data quality assurance, and large-scale data analysis. Published 4 first-author research papers. Currently driving AI/ML initiatives at AWS with 30% productivity improvement.
+
+TECHNICAL SKILLS
+Programming & Tools: Python (7+ years), SQL, MATLAB, Git, VS Code, Jupyter
+Machine Learning & AI: Machine Learning, Statistical Modeling, AI Model Evaluation, Model Fine-Tuning, Prompt Engineering, Large Language Models, Neural Networks, Deep Learning
+Statistical Methods: MCMC (Markov Chain Monte Carlo), Gaussian Process Regression, Bayesian Inference, Hypothesis Testing, A/B Testing, Multivariable Optimization
+Data Science: Large-Scale Data Processing (8B+ data points), Data Pipelines, Data Visualization, ETL, Data Quality Assurance, Automated Testing
+Cloud & Infrastructure: AWS (SageMaker, Bedrock), Cloud Computing, Distributed Computing
+Frameworks: NumPy, SciPy, Pandas, Matplotlib, scikit-learn, Astropy
+
+PROFESSIONAL EXPERIENCE
+
+AI/ML Programmer Writer | Amazon Web Services (AWS) | Palo Alto, CA | Oct 2022 - Present
+- Led model evaluation, fine-tuning, and prompt engineering initiatives for internal AI documentation tool, improving typical role production by approximately 30%
+- Developed evaluation frameworks and standardized testing methodologies for AI model performance assessment
+- Spearheaded accessibility improvements for SageMaker documentation, achieving 100% completion and enabling business with government agencies
+- Analyzed documentation health metrics dashboards, isolating signals from seasonal trends to drive data-driven UX improvements
+- Collaborated across teams to identify and resolve AWS onboarding inefficiencies, improving experience for thousands of new users
+- Created AI-powered documentation tools integrating AWS Bedrock and Claude models for automated content generation
+
+Postdoctoral Researcher | Shanghai Jiao Tong University | Shanghai, China | Aug 2019 - Aug 2022
+- Discovered and made first measurement of the "depletion radius" - a novel natural boundary of dark matter haloes, resulting in 2 first-author publications in top astrophysics journals
+- Built end-to-end machine learning pipelines processing 8+ billion data points from cosmological simulations using Python, NumPy, and advanced statistical methods
+- Developed automated testing infrastructure achieving 90%+ reliability in model validation and scientific result verification
+- Applied advanced statistical modeling techniques (MCMC, Gaussian Process Regression) to study how parameter changes impact simulation results
+- Collaborated with international research teams including LSST/Rubin Observatory on production-grade data analysis library (CLMM)
+
+Graduate Research Assistant | University of Texas at Dallas | Richardson, TX | Aug 2014 - Aug 2019
+- Published 2 first-author papers on weak gravitational lensing and galaxy cluster mass distributions using machine learning and statistical analysis
+- Processed terabyte-scale astronomical datasets using distributed computing on supercomputer clusters
+- Developed custom Python analysis frameworks for large-scale cosmological simulations (3072³ particles)
+- Presented research findings to diverse technical audiences at conferences and seminars
+- Mentored 6 undergraduate students from various institutions in research methodology and scientific programming
+
+Graduate Teaching Assistant | University of Texas at Dallas | Richardson, TX | Aug 2014 - May 2019
+- Taught graduate-level Cosmology and undergraduate Extragalactic Astrophysics courses
+- Delivered Python programming lectures to graduate students
+- Simplified complex physics concepts for students with varying technical backgrounds
+- Held office hours, graded assignments, and instructed laboratory sessions
+
+EDUCATION
+
+PhD in Physics & Astrophysics | University of Texas at Dallas | 2019
+Dissertation: "Weak Gravitational Lensing and Large-Scale Structure"
+
+MS in Physics & Astrophysics | University of Texas at Dallas | 2017
+
+BS in Physics, Minor in Mathematics | San Jose State University | 2012
+
+PUBLICATIONS (4 First-Author Papers)
+
+1. "First Measurement of the Characteristic Depletion Radius of Dark Matter Haloes from Weak Lensing" - The Astrophysical Journal (2022)
+2. "A Natural Boundary of Dark Matter Haloes Revealed Around the Minimum Bias and Splashback Radius" - Monthly Notices of the Royal Astronomical Society (2021)
+3. "The Impact of Baryonic Physics and Massive Neutrinos on Weak Lensing Peak Statistics" - Monthly Notices of the Royal Astronomical Society (2019)
+4. "Prospects for Determining the Mass Distributions of Galaxy Clusters on Large Scales Using Weak Gravitational Lensing" - Monthly Notices of the Royal Astronomical Society (2018)
+
+CERTIFICATIONS & PROFESSIONAL DEVELOPMENT
+
+AWS Certified Cloud Practitioner | Amazon Web Services | 2023
+Member, The Large Synoptic Survey Telescope (LSST) | 2016-2022
+Member, The American Astronomical Society (AAS) | 2014-2022
+Member, The Golden Key International Honour Society | 2011-Present
+
+KEY PROJECTS
+
+DocAIssistant - AI-Powered Technical Documentation Tool
+- Developed comprehensive Python package integrating AWS Bedrock for automated documentation generation
+- Implemented resource summarization, content planning, and fact-checking workflows
+- Streamlined documentation process from hours to minutes
+
+Career Coach Resume Assistant - AI Workflow System
+- Created 8 specialized AI prompts for job search and career development
+- Designed systematic workflow for resume tailoring, interview prep, and salary negotiation
+- Built organized file structure and comprehensive documentation
+
+CLMM Library Contribution - Production Data Analysis Tool
+- Participated in development of Cluster Lensing Mass Modeling library with LSST/Rubin Observatory team
+- Contributed to production-grade code for processing large-scale telescope data
